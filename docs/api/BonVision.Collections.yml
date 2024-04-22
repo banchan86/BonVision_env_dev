@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: BonVision.Collections
+  commentId: N:BonVision.Collections
+  id: BonVision.Collections
+  children:
+  - BonVision.Collections.CreateGratingTrial
+  - BonVision.Collections.GratingParameters
+  - BonVision.Collections.GratingTrial
+  - BonVision.Collections.GratingsSpecification
+  langs:
+  - csharp
+  - vb
+  name: BonVision.Collections
+  nameWithType: BonVision.Collections
+  fullName: BonVision.Collections
+  type: Namespace
+  assemblies:
+  - BonVision
+references:
+- uid: BonVision.Collections.GratingTrial
+  commentId: T:BonVision.Collections.GratingTrial
+  href: BonVision.Collections.GratingTrial.html
+  name: GratingTrial
+  nameWithType: GratingTrial
+  fullName: BonVision.Collections.GratingTrial
+- uid: BonVision.Collections.CreateGratingTrial
+  commentId: T:BonVision.Collections.CreateGratingTrial
+  href: BonVision.Collections.CreateGratingTrial.html
+  name: CreateGratingTrial
+  nameWithType: CreateGratingTrial
+  fullName: BonVision.Collections.CreateGratingTrial
+- uid: BonVision.Collections.GratingParameters
+  commentId: T:BonVision.Collections.GratingParameters
+  href: BonVision.Collections.GratingParameters.html
+  name: GratingParameters
+  nameWithType: GratingParameters
+  fullName: BonVision.Collections.GratingParameters
+- uid: BonVision.Collections.GratingsSpecification
+  commentId: T:BonVision.Collections.GratingsSpecification
+  href: BonVision.Collections.GratingsSpecification.html
+  name: GratingsSpecification
+  nameWithType: GratingsSpecification
+  fullName: BonVision.Collections.GratingsSpecification
