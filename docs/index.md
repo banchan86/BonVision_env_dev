@@ -1,5 +1,5 @@
 # BonVision - Making Visual Environments
-BonVision is an open-source closed-loop visual environment generator developed by the [Saleem Lab](www.saleemlab.com) and [Solomon Lab](www.solomonlab.info) at the UCL Institute of Behavioural Neuroscience in collaboration with [NeuroGEARS](https://neurogears.org/).
+BonVision is an open-source closed-loop visual environment generator developed by the [Saleem Lab](https://www.saleemlab.com/) and [Solomon Lab](https://solomonlab.info/) at the UCL Institute of Behavioural Neuroscience in collaboration with [NeuroGEARS](https://neurogears.org/).
 
 BonVision’s key features include:
 

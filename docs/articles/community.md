@@ -10,9 +10,9 @@ Twitter: [Follow us @BonVision_](https://twitter.com/BonVision_)
 
 YouTube Channel: [Learning materials and demos](https://www.youtube.com/channel/UCEg-3mfbvjIwbzDVvqYudAA)
 
-Issues:[Report issues on Bonvision Github](https://github.com/bonvision/BonVision/issues)
+Issues: [Report issues on Bonvision Github](https://github.com/bonvision/BonVision/issues)
 
-Discussion Forums:[Bonsai Github Discussions](https://github.com/orgs/bonsai-rx/discussions): We will be using the Bonsai github forum for BonVision discussions, as some issues can be overlapping and related to the Bonsai framework rather than the specifics of BonVision. 
+Forums: [Bonsai Github Discussions](https://github.com/orgs/bonsai-rx/discussions): We will be using the Bonsai github forum for BonVision discussions, as some issues can be overlapping and related to the Bonsai framework rather than the specifics of BonVision. 
 
 Bonsai: [Learn more about Bonsai](https://bonsai-rx.org/), [Bonsai Documentation](https://bonsai-rx.org/docs/)
 
