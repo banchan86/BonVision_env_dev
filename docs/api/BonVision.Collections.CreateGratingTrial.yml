@@ -460,9 +460,9 @@ items:
   - BonVision
   namespace: BonVision.Collections
   summary: >-
-    Processes the <code class="paramref">source</code> sequence into a new sequence of the
+    Processes an observable sequence into a new sequence of the specified
 
-    specified element type.
+    element type.
   example: []
   syntax:
     content: public override IObservable<GratingTrial> Process(IObservable<GratingParameters> source)
