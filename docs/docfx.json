@@ -31,7 +31,7 @@
         "files": [
           "images/**",
           "workflows/**",
-          "logo.png",
+          "logo.svg",
           "favicon.ico"
         ]
       }
@@ -46,7 +46,6 @@
     "globalMetadata": {
       "_appName": "Bonvision",
       "_appTitle": "Bonvision",
-      "_appLogoPath": "logo.png",
       "_enableSearch": true,
       "pdf": false,
       "_appFooter": "&copy; 2024 Aman Saleem. Made with <a href=\"https://dotnet.github.io/docfx\">docfx</a>",

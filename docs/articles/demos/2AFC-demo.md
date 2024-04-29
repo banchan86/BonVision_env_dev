@@ -1,2 +1,2 @@
-# Gamma 
+# 2AFC 
 ## Under Construction

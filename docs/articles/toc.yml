@@ -10,11 +10,11 @@
 - href: basic-stimulus.md
 - href: stimulus-series.md
 - href: grating-stimulus.md
-- name: Advanced Topics
-- href: logging.md
-- href: syncing.md
-- href: alternative-stimuli.md
 - name: Calibration
 - href: gamma-calibration.md
 - href: display-position-calibration.md
 - href: mesh-mapping-calibration.md
+- name: Additional Topics
+- href: logging.md
+- href: syncing.md
+- href: alternative-stimuli.md

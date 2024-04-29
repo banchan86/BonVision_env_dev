@@ -2,5 +2,7 @@
   href: articles/
 - name: API
   href: api/
+- name: Demos
+  href: articles/demos/
 - name: Community
-  href: articles/community.md
+  href: articles/community/community.md
