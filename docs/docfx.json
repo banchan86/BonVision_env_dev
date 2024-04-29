@@ -31,7 +31,7 @@
         "files": [
           "images/**",
           "workflows/**",
-          "logo.svg",
+          "logo.png",
           "favicon.ico"
         ]
       }
@@ -46,9 +46,10 @@
     "globalMetadata": {
       "_appName": "Bonvision",
       "_appTitle": "Bonvision",
+      "_appLogoPath": "logo.png",
       "_enableSearch": true,
       "pdf": false,
-      "_appFooter": "&copy; 2024 Bonsai Foundation CIC and Contributors. Made with <a href=\"https://dotnet.github.io/docfx\">docfx</a>",
+      "_appFooter": "&copy; 2024 Aman Saleem. Made with <a href=\"https://dotnet.github.io/docfx\">docfx</a>",
       "_gitContribute": {
         "repo": "https://github.com/bonvision/BonVision",
         "branch": "main",

@@ -1,9 +1,5 @@
 # Community
 
-## Publication / Citation
-
-G Lopes, K Farrell, E A B Horrocks, C Lee, M M Morimoto, T Muzzu, A Papanilolaou, F R Rodrigues, T Wheatcroft, S Zucca, S G Solomon, A B Saleem, (2021) _Creating and controlling visual environments using BonVision._ __eLife__ [link](https://elifesciences.org/articles/65541)
-
 ## Online Resources
 
 Twitter: [Follow us @BonVision_](https://twitter.com/BonVision_)
