@@ -1,4 +1,4 @@
-# Overview
+# Display Position
 BonVision has the following solutions for `Stimulus Generation`:
 
 ## A. Sphere Mapping

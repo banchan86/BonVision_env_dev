@@ -1,4 +1,4 @@
-# Overview
+# Syncing
 BonVision has the following solutions for `Stimulus Generation`:
 
 ## A. Sphere Mapping

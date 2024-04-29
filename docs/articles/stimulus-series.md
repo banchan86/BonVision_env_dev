@@ -1,4 +1,4 @@
-# Overview
+# Stimulus Series
 BonVision has the following solutions for `Stimulus Generation`:
 
 ## A. Sphere Mapping
