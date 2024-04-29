@@ -1,1 +1,8 @@
-href: ../index.md
+- name: Getting Started
+- href: ../index.md
+- href: installation.md
+- name: Basics
+- href: display-environment-basics.md
+- href: stimulus-generation-basics.md
+- name: Bonvision Workflow
+- href: basic-workflow.md
