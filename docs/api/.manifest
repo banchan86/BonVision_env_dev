@@ -99,10 +99,5 @@
   "BonVision.RotationProperty.Process": "BonVision.RotationProperty.yml",
   "BonVision.RotationProperty.Process``1(System.IObservable{``0})": "BonVision.RotationProperty.yml",
   "BonVision.RotationProperty.Value": "BonVision.RotationProperty.yml",
-  "BonVision.RotationProperty.ValueXml": "BonVision.RotationProperty.yml",
-  "BonVision.SampleMany": "BonVision.SampleMany.yml",
-  "BonVision.SampleMany.#ctor": "BonVision.SampleMany.yml",
-  "BonVision.SampleMany.Count": "BonVision.SampleMany.yml",
-  "BonVision.SampleMany.Process(System.IObservable{MathNet.Numerics.Distributions.IContinuousDistribution})": "BonVision.SampleMany.yml",
-  "BonVision.SampleMany.Process(System.IObservable{MathNet.Numerics.Distributions.IDiscreteDistribution})": "BonVision.SampleMany.yml"
+  "BonVision.RotationProperty.ValueXml": "BonVision.RotationProperty.yml"
 }

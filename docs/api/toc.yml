@@ -21,8 +21,6 @@ items:
     name: OptionalFloatProperty
   - uid: BonVision.RotationProperty
     name: RotationProperty
-  - uid: BonVision.SampleMany
-    name: SampleMany
 - uid: BonVision.Collections
   name: BonVision.Collections
   items:

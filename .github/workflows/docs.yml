@@ -22,7 +22,7 @@ jobs:
         uses: microsoft/setup-msbuild@v2
       
       - name: Restore NuGet Packages
-        run: msbuild -t:restore src\BonVision.sln
+        run: msbuild -t:restore src/BonVision.sln
 
       - name: Build Solution
         run: msbuild src/BonVision.sln /p:Configuration=Release
