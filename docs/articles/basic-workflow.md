@@ -1,92 +1,81 @@
 # Overview
-BonVision has the following solutions for `Stimulus Generation`:
 
-## A. Sphere Mapping
+There are five basic sections to making a workflow in BonVision. 
+
+```mermaid
+flowchart TD
+
+A(Create Window) --> B(Drawing Region) --> C(Draw Stimuli) --> D(Map Stimuli*) --> E(Define Display*)
+```
+
 > [!NOTE]
-> This is best for creating 2D stimuli.
+> Map Stimuli and Define Display steps are optional and can be skipped when prototyping
+
+## Create Window
+
+All BonVision workflows need to start by creating a display window and loading the essential BonVision resources. If additional resources
+such as 3D models are required, load them at this step using the optional `SceneResources` node.
+
 > [!NOTE]
-> Needs a Display object: preferably a ViewingWindow
+> You can copy the workflows below directly into Bonsai by clicking the copy button on the top right of the container.
 
-[The details of the implementation of Sphere mapping](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/UV_Map_Basics)
+:::workflow
+![Create Window](../workflows/overview-create-window.bonsai)
+:::
 
-In this case, stimuli are always rendered onto the inside of a sphere. This allows easy eye-centric definitions of stimuli in visual angle units. The displays are then windows that observe these rendered stimuli. We use Spherical coordinates to define all stimulus parameters in this case. 
+## Drawing Region
 
-![SphericalCoord](~/images/DisplayLogic/SphericalCoord_resized.png){width=500} 
+This defines which region of visual space is used for the visual world.
+Ideally one should use `OrthographicView`. This defines everything in terms of visual angles.
 
-## B. Cube Mapping
+:::workflow
+![Create Window](../workflows/overview-orthographic.bonsai)
+:::
+
+If you are just prototyping stimuli, one can use `NormalisedView`.
+
+:::workflow
+![Create Window](../workflows/overview-normalized.bonsai)
+:::
+
 > [!NOTE]
-> This is best for creating 3D stimuli, for Virtual or Augmented Reality Systems.
+> Note that this can be larger than the actual region used. 
+
+### Draw Stimuli
+
+This is where you generate all the aspects of the visual environment which will be covered in more details in later sections.
+
+:::workflow
+![Create Window](../workflows/overview-draw-stimuli.bonsai)
+:::
+
 > [!NOTE]
-> Needs a Display object: preferably a PerspectiveViewingWindow
+> At this point you have all the basic parts necessary to create and prototype visual environments. The workflow below encapsulates all these steps and draws a simple black and white circle. 
+> Copy it into Bonsai and try it out!
 
-[The details of Cube Mapping are explained here:](https://en.wikipedia.org/wiki/Cube_mapping)
+:::workflow
+![Create Window](../workflows/overview-draw-circle.bonsai)
+:::
 
-In this case all the stimuli are created in eye-centric physical coordinates (centimeters for example) and rendered onto a unit Cube. The displays (Perspective cameras) are then windows into these rendered images.
-*probably easiest with a whiteboard drawing here*
+### Map Stimuli (optional)
 
-### For Virtual Reality (VR)
-VR can be easily defined as a situation where the eye, and the screens (windows) are fixed positions, while the all the objects (or VR environment) moves across the eye.
-
-![VR](~/images/DisplayLogic/VRcartoon.png){width=500} 
-
- Example rendering to be added here
-
-### For Augmented Reality (AR)
-
-This is a scenario where, generally, the screens remain in a fixed position and the animal can move around. Since we have an eye-centric coordinate frame, the objects and the screen move around to generate an AR. 
-
-![AR](~/images/DisplayLogic/ARcartoon.jpg){width=500} 
-
- Example rendering to be added here
-
-## C. Normalized Viewport
-> [!NOTE]
-> This is convenient while designing and testing, prior to an actual experiment.
-
-It just scales the screen from -1 to 1 on the two axes
-
-![NormalizedViewport](~/images/DisplayLogic/NormalizedViewport.png){width=500} 
-
-# Display Types
-BonVision has the following solutions for `DisplayTypes`:
-
-## I. ViewingWindow
-> [!NOTE]
-> This is best for creating 2D stimuli.
-
-This is a flat screen defined by 6 measurements (for a complete discription). Multiple display objects can be added by just adding additional ViewingWindows.
-
-These are the measures that need to be added for each display object:
-1. Distance of left bottom corner (from eye)
-2. Distance of left top corner (from eye)
-3. Distance of right top corner (from eye)
-4. Distance of right bottom corner (from eye)
-5. Azimuth (horizontal angle from straight ahead) of the centre of the display
-6. Elevation (vertical angle from horizon) of the centre of the display
+This is where the stimulus is rendered onto a a surface. This can be skipped for prototyping. Ideally one should use `SphereMapping`. 
+If `SphereMapping` is used, the Define display section next is necessary
 
 
-This is an example of the same stimulus rendered on different displays:
+### Define Display (optional)
 
-![](~/images/DisplayLogic/DisplayWindowLogic-01.png){width=500} 
+Here we define the parameters of the display system (eg. monitor) by adding a `ViewingWindow` and a `DrawViewport` node.
 
-![](~/images/DisplayLogic/DisplayWindowLogic-03.png){width=500} 
+> [!Warning]
+> For some reason an error in the SphereMapping workflow below crops up for me, I have included it in case someone can troubleshoot it for me.
 
-![](~/images/DisplayLogic/DisplayWindowLogic-05.png){width=500} 
+:::workflow
+![Create Window](../workflows/overview-sphere-map-doesntwork.bonsai)
+:::
 
-Images on A, B and C
+Additional displays can be defined by adding multiple `ViewingWindow`/`DrawViewport` nodes.
 
-## II. PerspectiveViewingWindow
-> [!NOTE]
-> This is best for creating 3D VR/AR stimuli.
-
-## III. MeshMapping
-> [!NOTE]
-> When using a projector in conjunction with a mirror or lens.
-
-Lens or mirrors cause distortions in the image, such that pixels across the display surface might not have the same physical dimensions. In this case, one would have to measure the distortions and use these to warp the images to display them correctly. In the case of 3D worlds, they might be best use in conjunction with multiple PerspectiveViewingWindows looking at different parts of the world.
-
-## IV. GammaCorrection
-> [!NOTE]
-> When using a projector in conjunction with a mirror or lens.
-
-This is simple intensity mapping of the three colors, to make sure the stimuli are linear. It uses a simple LUT (Look-up-table), for Red, Green and Blue. 
+:::workflow
+![Create Window](../workflows/overview-multiple-displays.bonsai)
+:::
