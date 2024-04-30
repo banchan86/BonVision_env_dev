@@ -14,7 +14,7 @@ A(Create Window) --> B(Drawing Region) --> C(Draw Stimuli) --> D(Map Stimuli*) -
 ## Create Window
 
 All BonVision workflows need to start by creating a display window and loading the essential BonVision resources. If additional resources
-such as 3D models are required, load them at this step using the optional `SceneResources` node.
+such as 3D models and textures are required, load them at this step using the optional `SceneResources` and `TextureResources` node.
 
 > [!NOTE]
 > You can copy the workflows below directly into Bonsai by clicking the copy button on the top right of the container.
