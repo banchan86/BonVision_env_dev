@@ -21,4 +21,20 @@ items:
     name: OptionalFloatProperty
   - uid: BonVision.RotationProperty
     name: RotationProperty
+- uid: BonVision.Collections
+  name: BonVision.Collections
+  items:
+  - uid: BonVision.Collections.CreateGratingTrial
+    name: CreateGratingTrial
+  - uid: BonVision.Collections.GratingParameters
+    name: GratingParameters
+  - uid: BonVision.Collections.GratingTrial
+    name: GratingTrial
+  - uid: BonVision.Collections.GratingsSpecification
+    name: GratingsSpecification
+- uid: BonVision.Primitives
+  name: BonVision.Primitives
+  items:
+  - uid: BonVision.Primitives.DrawCircle
+    name: DrawCircle
 memberLayout: SamePage

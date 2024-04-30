@@ -95,6 +95,8 @@
   "BonVision.OptionalFloatProperty.Process": "BonVision.OptionalFloatProperty.yml",
   "BonVision.OptionalFloatProperty.Process``1(System.IObservable{``0})": "BonVision.OptionalFloatProperty.yml",
   "BonVision.OptionalFloatProperty.Value": "BonVision.OptionalFloatProperty.yml",
+  "BonVision.Primitives": "BonVision.Primitives.yml",
+  "BonVision.Primitives.DrawCircle": "BonVision.Primitives.DrawCircle.yml",
   "BonVision.RotationProperty": "BonVision.RotationProperty.yml",
   "BonVision.RotationProperty.Process": "BonVision.RotationProperty.yml",
   "BonVision.RotationProperty.Process``1(System.IObservable{``0})": "BonVision.RotationProperty.yml",
