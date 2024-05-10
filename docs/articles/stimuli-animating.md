@@ -1,2 +1,2 @@
-# Timing Stimuli
+# Animating Stimuli
 ## Under Construction

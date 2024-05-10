@@ -83,4 +83,4 @@ Additional displays can be defined by adding multiple `ViewingWindow`/`DrawViewp
 
 ### Video Walkthrough
 
-<iframe width="919" height="517" src="https://www.youtube.com/embed/x-J6kIZvOwA" title="BonVision quick tips: Making your first BonVision workflow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="500" height="282" src="https://www.youtube.com/embed/x-J6kIZvOwA" title="BonVision quick tips: Making your first BonVision workflow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

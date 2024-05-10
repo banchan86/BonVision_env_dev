@@ -26,4 +26,4 @@ Just hit Start in the menu. Press the `space bar` to initate the looming stimulu
 ## Video Walkthrough
 For an indepth walkthrough about how the demo works (with more additional details), you can refer to this Bonsai Live Coding session.
 
-<iframe width="919" height="517" src="https://www.youtube.com/embed/RTacTdWuwqA" title="BonVision Live Coding Session 15 Dec 2020" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="500" height="282" src="https://www.youtube.com/embed/RTacTdWuwqA" title="BonVision Live Coding Session 15 Dec 2020" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

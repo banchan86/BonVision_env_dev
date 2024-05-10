@@ -25,9 +25,9 @@ We can then use these primitives to load images and videos.
 
 
 ### Video Walkthrough
-<iframe width="919" height="517" src="https://www.youtube.com/embed/I3JuU_-PJuE" title="BonVision quick tips: How to display an image" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="500" height="282" src="https://www.youtube.com/embed/I3JuU_-PJuE" title="BonVision quick tips: How to display an image" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="919" height="517" src="https://www.youtube.com/embed/gYlgBgvSrmg" title="BonVision quick tips: Playing a movie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="500" height="282" src="https://www.youtube.com/embed/gYlgBgvSrmg" title="BonVision quick tips: Playing a movie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Neuroscience primitives
