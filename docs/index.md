@@ -20,7 +20,7 @@ BonVision’s key features include:
 
 ## Video Walkthrough
 
-<iframe width="500" height="282" src="https://www.youtube.com/embed/e_5W503W1AI?si=QuYZu-T7V7G7mwXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="500" height="282" src="https://www.youtube.com/embed/e_5W503W1AI?si=QuYZu-T7V7G7mwXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>{width=500} 
 
 More Bonvision videos on specific topics can be found on our [youtube channel](https://www.youtube.com/channel/UCEg-3mfbvjIwbzDVvqYudAA).
 
