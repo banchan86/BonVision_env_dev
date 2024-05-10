@@ -1,2 +1,2 @@
-# Basic Stimulus
+# Map Stimuli
 ## Under Construction

@@ -7,9 +7,15 @@
 - href: display-environment-basics.md
 - name: Workflow
 - href: basic-workflow.md
-- href: basic-stimulus.md
-- href: stimulus-series.md
-- href: grating-stimulus.md
+- href: create-window.md
+- href: drawing-region.md
+- href: draw-stimuli.md
+- href: map-stimuli.md
+- href: define-display.md
+- name: Stimuli Manipulation
+- href: stimuli-multiple.md
+- href: stimuli-timing.md
+- href: stimuli-animating.md
 - name: Calibration
 - href: gamma-calibration.md
 - href: display-position-calibration.md
