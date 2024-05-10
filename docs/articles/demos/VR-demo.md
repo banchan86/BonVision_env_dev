@@ -7,7 +7,7 @@ You can download this demo from the `demos` folder in the [examples repository](
 The workflow is encapsulated below which you can copy into your Bonsai Window.
 
 > [!NOTE]
-> This still requires the custom `Textures` folder which can be downloaded above.
+> The workflow still requires the custom `Textures` folder which can be downloaded above.
 
 :::workflow
 ![Create Window](../../workflows/demo-vr.bonsai)
