@@ -95,7 +95,7 @@ subject movement (for instance when an animal crosses into an arena).
 ## Video Walkthrough
 For a video walkthrough of many of the steps covered in this article, check out this youtube video.
 <div style="max-width: 500px">
-<iframe width=100% height="720" src="https://www.youtube.com/embed/yHQFbI69UHw" title="BonVision quick tips: Timing a stimulus" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width=100% height="282" src="https://www.youtube.com/embed/yHQFbI69UHw" title="BonVision quick tips: Timing a stimulus" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 

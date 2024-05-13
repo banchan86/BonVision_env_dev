@@ -33,4 +33,4 @@ For a video walkthrough of this process, see this youtube video.
 
 
 ### Presenting multiple stimuli sequentially 
-To present multiple stimuli sequentially, we can use the same `PublishSubject` and `SubscribeSubject` operators but add timers to them. Timing will be covered in the [Timing Stimuli](stimuli-timing.bonsai)
+To present multiple stimuli sequentially, we can use the same `PublishSubject` and `SubscribeSubject` operators but add timers to them. Timing will be covered in the [Timing Stimuli](stimuli-timing.md) article,
