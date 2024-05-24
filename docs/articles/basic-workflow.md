@@ -17,7 +17,7 @@ All BonVision workflows need to start by creating a display window and loading t
 such as 3D models and textures are required, load them at this step using the optional `SceneResources` and `TextureResources` node.
 
 > [!NOTE]
-> You can copy the workflows below directly into Bonsai by clicking the copy button on the top right of the container.
+> Copy the workflows below directly into Bonsai by clicking the copy button on the top right of the container to test them out.
 
 :::workflow
 ![Create Window](../workflows/overview-create-window.bonsai)
@@ -25,21 +25,11 @@ such as 3D models and textures are required, load them at this step using the op
 
 ## Drawing Region
 
-This defines which region of visual space is used for the visual world.
-Ideally one should use `OrthographicView`. This defines everything in terms of visual angles.
-
-:::workflow
-![Create Window](../workflows/overview-orthographic.bonsai)
-:::
-
-If you are just prototyping stimuli, one can use `NormalisedView`.
+This defines which region of visual space is used for the visual world. For the purpose of prototyping stimuli, use `NormalisedView`.
 
 :::workflow
 ![Create Window](../workflows/overview-normalized.bonsai)
 :::
-
-> [!NOTE]
-> Note that this can be larger than the actual region used. 
 
 ### Draw Stimuli
 

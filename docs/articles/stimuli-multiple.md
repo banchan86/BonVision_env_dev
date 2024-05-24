@@ -15,9 +15,9 @@ For scenarios not covered by the above primitives, we can use the `PublishSubjec
 [Subjects](https://bonsai-rx.org/docs/articles/subjects.html) are a special type of operator that allow reusing and sharing of observable sequences.
 
 To get started:
-- First connect a `PublishSubject` operator to the viewport (in our example workflow below, a `NormalizedView`) and give it a name, like `DrawStimuli`.
-- Next, you can add multiple `SubscribeSubject` operators for each of the stimuli type you want to draw. In the `SubscribeSubject` operators, you will need to select the name you have given to the `Subject` you have created (in this example, `DrawStimuli`)
-- Lastly, connect `DrawX` operators to each `SubscribeSubject` operator
+1) Connect a `PublishSubject` operator to the viewport (in our example workflow below, a `NormalizedView`) and give it a name, like `DrawStimuli`.
+2) Add multiple `SubscribeSubject` operators for each of the stimuli type you want to draw. In the `SubscribeSubject` operators, you will need to select the name you have given to the `Subject` you have created (in this example, `DrawStimuli`)
+3) Connect `DrawX` operators to each `SubscribeSubject` operator
 
 The end result should look something like this example workflow, which draws a circle and quad side by side.
 

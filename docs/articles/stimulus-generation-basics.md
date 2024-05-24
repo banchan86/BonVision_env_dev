@@ -39,11 +39,6 @@ This is a scenario where, generally, the screens remain in a fixed position and 
 
  Example rendering to be added here
 
-## C. Normalized Viewport
-> [!NOTE]
-> This is convenient while designing and testing, prior to an actual experiment.
-
-It just scales the screen from -1 to 1 on the two axes
 
 ![NormalizedViewport](~/images/DisplayLogic/NormalizedViewport.png){width=500} 
 
@@ -75,9 +70,6 @@ This is an example of the same stimulus rendered on different displays:
 
 Images on A, B and C
 
-## II. PerspectiveViewingWindow
-> [!NOTE]
-> This is best for creating 3D VR/AR stimuli.
 
 ## III. MeshMapping
 > [!NOTE]

@@ -83,7 +83,7 @@ the `Timer` operator with a `KeyDown` operator, stimuli presentation can be link
 
 This workflow draws a circle when the `space bar` is pressed, and the circle disappears when the `a` button is pressed.
 :::workflow
-![Create Window](../workflows/timing-stimuli-sequential.bonsai)
+![Create Window](../workflows/timing-stimuli-keydown.bonsai)
 :::
 
 This also opens up possibilities for close-loop presentation of visual stimuli. For instance, visual stimuli can be linked to lever presses for operant conditioning tasks, as well as to 

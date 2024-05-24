@@ -12,10 +12,11 @@
 - href: draw-stimuli.md
 - href: map-stimuli.md
 - href: define-display.md
-- name: Stimuli Tips
+- name: Bonvision Tips
 - href: stimuli-multiple.md
 - href: stimuli-timing.md
 - href: stimuli-animating.md
+- href: camera-movement.md
 - href: stimuli-alternative.md
 - name: Calibration
 - href: gamma-calibration.md

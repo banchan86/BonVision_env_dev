@@ -1,6 +1,5 @@
 # Animating Stimuli
 
-## Manipulating Parameters of Drawing Stimuli Nodes.
 Basic animation in `BonVision` involves manipulating one or more properties in a `DrawX` node. For instance, to make a circle 
 move across the screen, you would vary the `LocationX` parameter in a `DrawCircle` node.
 
@@ -28,9 +27,6 @@ The workflow will look something like this (which shows a circle moving across t
 
 For an additional example of this, see the `Looming/Sweeping` demo in the [Demo](/demos/VR-demo.md) page.
 
-
-## Animating stimuli with moving viewing window/perspective view
-- this sounds like it should be possible but I need to look at an example. 
 
 
 
