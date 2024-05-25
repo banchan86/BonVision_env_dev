@@ -2,7 +2,7 @@
 
 These are demos of looming and sweeping visual stimuli that are similar to that used in [Yilmaz et al., 2014](https://doi.org/10.1016%2Fj.cub.2013.08.015) and [Franceschi et al., 2016](https://doi.org/10.1016/j.cub.2016.06.006).
 
-You can copy the workflows directly into Bonsai by clicking on the copy button on the top right of the container.
+You can copy and paste the workflows below directly into the `Bonsai` window by clicking on the copy button on the top right of the container.
 
 ## Looming Stimulus
 

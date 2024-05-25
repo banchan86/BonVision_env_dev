@@ -89,7 +89,7 @@ This workflow draws a circle when the `space bar` is pressed, and the circle dis
 This also opens up possibilities for close-loop presentation of visual stimuli. For instance, visual stimuli can be linked to lever presses for operant conditioning tasks, as well as to 
 subject movement (for instance when an animal crosses into an arena). 
 
-* might be worth a separate article
+* Shawn's note might be worth a separate article
 
 
 ## Video Walkthrough

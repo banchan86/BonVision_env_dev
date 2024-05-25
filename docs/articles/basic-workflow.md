@@ -58,7 +58,7 @@ If `SphereMapping` is used, the Define display section next is necessary
 Here we define the parameters of the display system (eg. monitor) by adding a `ViewingWindow` and a `DrawViewport` node.
 
 > [!Warning]
-> For some reason an error in the SphereMapping workflow below crops up for me, I have included it in case someone can troubleshoot it for me.
+> * Shawn's note - For some reason an error in the SphereMapping workflow below crops up for me, I have included it in case someone can troubleshoot it for me.
 
 :::workflow
 ![Create Window](../workflows/overview-sphere-map-doesntwork.bonsai)
