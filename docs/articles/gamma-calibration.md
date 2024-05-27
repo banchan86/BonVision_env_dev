@@ -3,7 +3,7 @@
 * Shawn's note - As I do not have a photodiode I was unable to test the scripts, thus I have simply copied the content over from the old website. When I tried to run the GammaCalibration_test script though, I did run into an error "failing to load texture from `gammalut.bmp`", I'm not sure if that file needs to be included in the examples repo for the script to work. In addition, it seems that the linked thorlabs photodiode has been discontinued, I put a link to the archived product page but did not link to an alternative product as the ones I have looked at do not appear to be identical replacements.
 
 
-The gamma calibration workflows can be [found here](https://github.com/bonvision/examples).
+The gamma calibration workflows can be [found here](https://github.com/bonvision/examples/tree/master/GammaCalibration).
 
 ## What is gamma calibration?
 
@@ -34,7 +34,7 @@ This workflow can be used to test the linearity of the monitor with or without t
 To test without the GammaCorrection, disable the `GammaCorrection` node in the workflow here. 
 
 :::workflow
-![Create Window](../../workflows/GammaCalibration-test.bonsai)
+![Create Window](../workflows/GammaCalibration-test.bonsai)
 :::
 
 ### Setup: 

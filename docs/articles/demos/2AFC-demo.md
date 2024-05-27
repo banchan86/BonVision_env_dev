@@ -1,4 +1,4 @@
-# 2AFC 
+# Vision Psychophysics - 2AFC 
 
 * Shawn's note - The existing 2AFC demo in the Bonvision examples repository does not work (the grating orientations do not change, might be a problem with the `EnsureGratingParameters` operator which seems to be outdated), I have used the version from https://bonsai-rx.org/docs/tutorials/vision-psychophysics.html.
 

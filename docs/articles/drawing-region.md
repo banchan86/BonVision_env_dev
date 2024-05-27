@@ -22,7 +22,7 @@ For rapid prototyping of 2D stimuli, one can use the `NormalizedView`. This view
 
 ![NormalizedView](~/images/DisplayLogic/NormalizedViewport.png){width=500} 
 
-`NormalizedView` can also be used to display 2D stimuli with parameters (eg, sizes, locations) in terms of proportions of the screen size instead of `OrthographicView`
+`NormalizedView` can also be used to display 2D stimuli with parameters (eg, sizes, locations) in terms of proportions of the screen size instead of `OrthographicView`.
 If so, then the locations of stimuli defined downstream of this node will use the centre of the screen as the origin, and have sizes that refer to the proportion of the short axis of the screen occupied.
 I.e. a quad with an extent of 1 will have a side length equal to the length of the short axis of the screen.
 
@@ -35,7 +35,7 @@ I.e. a quad with an extent of 1 will have a side length equal to the length of t
 ![Create Window](../workflows/drawing-region-3d-views.bonsai)
 :::
 
-### NormalizedView
+### PerspectiveView
 
 `PerspectiveView` is the preferred viewport for displaying 3D stimuli such as 3D models or scenes.
 
