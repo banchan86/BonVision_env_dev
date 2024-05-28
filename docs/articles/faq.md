@@ -2,7 +2,7 @@
 
 ### I can't see the window with the stimulus when I hit Start in Bonsai?
 In some cases, the window might appear outside of the screen. 
-If that is the case, you can adjust the `Location` parameter in the `CreateWindow` operator by passing a pair of x,y values corresponding to the screen coordinates (for instance: 100,100)
+If that is the case, you can adjust the `Location` parameter in the `CreateWindow` operator by passing a pair of x,y values corresponding to the screen coordinates (for instance: 100,100).
 
 ### I see duplicate operators in Bonsai when adding operators, which one should I choose?
 As an example, the `Timer` operator that is used to control timing of stimuli exists in two versions, a `Timer` that belongs to the `Bonsai.Reactive` package and a `Timer` that belongs to the `Bonsai.Shaders` package.
