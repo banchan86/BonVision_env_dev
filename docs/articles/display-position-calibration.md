@@ -1,6 +1,6 @@
 # Display Position
 ## Under Construction
-* Shawn's note - this article seems to be incomplete and I am unable to fill in the missing blanks, thus I have copied over the content.
+* Shawn's note - this article seems to be incomplete and I am unable to fill in the missing blanks, thus I have simply copied over the content.
 
 The workflows in this article can be  [found here](https://github.com/bonvision/examples/tree/master/ScreenCalibration).
 
@@ -35,7 +35,7 @@ _C. Calibrate the screen position_
 _NOTE: To make it convenient, we have the option of calibrating the display by using your phone camera. You would need to take pictures of the setup as described below and upload the images on a system running Bonsai._
 
 #### A. Measuring camera intrinsics
-This workflow is to calibrate the intrinsic properties of the camera-lens combination, using standardized OpenCV formats. If you have previously calibrated the camera, you can simply save the value in the OpenCV format and link the function C (below) to that file. Alternatively, you will need to run this program. Running it displays a checkerboard pattern on the screen. (You can also print a checkboard patter of known size). Once it is displayed in the screen, measure the size a unit square and enter it under __  __ After that you will have to take pictures of the checkerboard pattern from different camera viewing angles. In the workflow, an image can be taken by hitting the _spacebar_. As a standard, we use 7 images: 
+This workflow is to calibrate the intrinsic properties of the camera-lens combination, using standardized OpenCV formats. If you have previously calibrated the camera, you can simply save the value in the OpenCV format and link the function C (below) to that file. Alternatively, you will need to run this program. Running it displays a checkerboard pattern on the screen. (You can also print a checkboard patter of known size). Once it is displayed in the screen, measure the size a unit square and enter it under __  __ After that you will have to take pictures of the checkerboard pattern from different camera viewing angles. In the workflow, an image can be taken by hitting the _spacebar_. As a standard, we use 7 images (illustrated with figures below): 
 1. from the front of the pattern
 
 ![Display Front](~/images/DisplayPosition/disp-front.jpg){width=500} 
@@ -45,18 +45,23 @@ This workflow is to calibrate the intrinsic properties of the camera-lens combin
 ![Display Left](~/images/DisplayPosition/disp-w.jpg){width=500} 
 
 3. from the Right
+
 ![Display Right](~/images/DisplayPosition/disp-e.jpg){width=500} 
 
 4. from below the pattern
+
 ![Display Below](~/images/DisplayPosition/disp-s.jpg){width=500} 
 
 5. from above
+
 ![Display Above](~/images/DisplayPosition/disp-n.jpg){width=500} 
 
-6. from the top, right corner, and
+6. from the top, right corner
+
 ![Display Top Right](~/images/DisplayPosition/disp-ne.jpg){width=500} 
 
-7. from the bottom left corner (illustrated in the figure below).
+7. from the bottom left corner
+
 ![Display Bottom Left](~/images/DisplayPosition/disp-sw.jpg){width=500} 
 
 #### B. Measure display size using a Marker
