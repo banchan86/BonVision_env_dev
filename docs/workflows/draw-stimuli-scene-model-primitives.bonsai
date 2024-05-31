@@ -32,18 +32,6 @@
         <SpecularExponent>10</SpecularExponent>
         <MeshName>Plane</MeshName>
       </Expression>
-      <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawSceneModel.bonsai">
-        <TranslationX>0</TranslationX>
-        <TranslationY>0</TranslationY>
-        <TranslationZ>0</TranslationZ>
-        <RotationZ>0</RotationZ>
-        <RotationY>0</RotationY>
-        <RotationX>0</RotationX>
-        <ScaleX>1</ScaleX>
-        <ScaleY>1</ScaleY>
-        <ScaleZ>1</ScaleZ>
-        <SceneName />
-      </Expression>
       <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawTexturedModel.bonsai">
         <TranslationX>0</TranslationX>
         <TranslationY>0</TranslationY>
@@ -71,6 +59,18 @@
         </Specular>
         <SpecularExponent>10</SpecularExponent>
         <MeshName>Plane</MeshName>
+      </Expression>
+      <Expression xsi:type="IncludeWorkflow" Path="BonVision:Primitives.DrawSceneModel.bonsai">
+        <TranslationX>0</TranslationX>
+        <TranslationY>0</TranslationY>
+        <TranslationZ>0</TranslationZ>
+        <RotationZ>0</RotationZ>
+        <RotationY>0</RotationY>
+        <RotationX>0</RotationX>
+        <ScaleX>1</ScaleX>
+        <ScaleY>1</ScaleY>
+        <ScaleZ>1</ScaleZ>
+        <SceneName />
       </Expression>
     </Nodes>
     <Edges />
