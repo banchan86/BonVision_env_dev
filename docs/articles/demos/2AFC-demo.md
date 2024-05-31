@@ -7,7 +7,7 @@ This is a demo of a simple orientation discrimination vision psychophysics task 
 You can copy and paste the workflow below directly into the `Bonsai` window by clicking on the copy button on the top right of the container.
 
 :::workflow
-![Create Window](../../workflows/vision-psychophysics-full-demo.bonsai)
+![2AFC Demo](../../workflows/vision-psychophysics-full-demo.bonsai)
 :::
 
 For a full tutorial on how to build this workflow, visit the [Vision Psychophysics](https://bonsai-rx.org/docs/tutorials/vision-psychophysics.html) tutorial on the `Bonsai` documentation website.

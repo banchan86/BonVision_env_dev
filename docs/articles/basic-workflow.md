@@ -1,6 +1,6 @@
 # Overview
 
-There are five basic sections to making a workflow in BonVision. 
+There are five basic sections to making a workflow in BonVision. These sections will be covered in more detail in individual articles which you can access from the sidebar.
 
 ```mermaid
 flowchart TD
@@ -28,15 +28,14 @@ such as 3D models and textures are required, load them at this step using the op
 This defines which region of visual space is used for the visual world. For the purpose of prototyping stimuli, use `NormalisedView`.
 
 :::workflow
-![Create Window](../workflows/overview-normalized.bonsai)
+![Drawing Region](../workflows/overview-normalized.bonsai)
 :::
 
 ### Draw Stimuli
 
-This is where you generate all the aspects of the visual environment which will be covered in more details in later sections.
-
+This is where you generate all the aspects of the visual environment.
 :::workflow
-![Create Window](../workflows/overview-draw-stimuli.bonsai)
+![Draw Stimuli](../workflows/overview-draw-stimuli.bonsai)
 :::
 
 > [!NOTE]
@@ -44,7 +43,7 @@ This is where you generate all the aspects of the visual environment which will 
 > Copy it into Bonsai and try it out!
 
 :::workflow
-![Create Window](../workflows/overview-draw-circle.bonsai)
+![Basic Workflow](../workflows/overview-draw-circle.bonsai)
 :::
 
 ### Map Stimuli (optional)
@@ -61,13 +60,13 @@ Here we define the parameters of the display system (eg. monitor) by adding a `V
 > * Shawn's note - For some reason an error in the SphereMapping workflow below crops up for me, I have included it in case someone can troubleshoot it for me.
 
 :::workflow
-![Create Window](../workflows/overview-sphere-map-doesntwork.bonsai)
+![Sphere Mapping](../workflows/overview-sphere-map-doesntwork.bonsai)
 :::
 
 Additional displays can be defined by adding multiple `ViewingWindow`/`DrawViewport` nodes.
 
 :::workflow
-![Create Window](../workflows/overview-multiple-displays.bonsai)
+![Multiple Displays](../workflows/overview-multiple-displays.bonsai)
 :::
 
 

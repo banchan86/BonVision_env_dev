@@ -34,7 +34,7 @@ This workflow can be used to test the linearity of the monitor with or without t
 To test without the GammaCorrection, disable the `GammaCorrection` node in the workflow here. 
 
 :::workflow
-![Create Window](../workflows/GammaCalibration-test.bonsai)
+![Gamma Calibration Test](../workflows/GammaCalibration-test.bonsai)
 :::
 
 ### Setup: 

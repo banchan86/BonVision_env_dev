@@ -1,2 +1,0 @@
-# Grating Stimulus
-## Under Construction

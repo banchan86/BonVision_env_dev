@@ -1,2 +1,0 @@
-# Stimulus Series
-## Under Construction

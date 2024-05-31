@@ -10,7 +10,7 @@ The workflow is encapsulated below which you can copy into your Bonsai Window.
 > The workflow still requires the custom `Textures` folder which can be downloaded above.
 
 :::workflow
-![Create Window](../../workflows/demo-vr.bonsai)
+![VR Demo](../../workflows/demo-vr.bonsai)
 :::
 
 

@@ -1,11 +1,15 @@
 # Multiple Stimuli
-`BonVision` has two methods for drawing multiple stimuli in the same window.
+`BonVision` has three methods for drawing multiple stimuli in the same window.
+
+## Passing multiple values to DrawX nodes
+
+
 
 ## Array Primitives
 For several stimuli primitives, `BonVision` includes array versions of these primitives that can be used to draw several of them simultaneously.
 
 :::workflow
-![Create Window](../workflows/array-primitives.bonsai)
+![Array Primitives](../workflows/array-primitives.bonsai)
 :::
 
 * to add more details
@@ -22,7 +26,7 @@ To get started:
 The end result should look something like this example workflow, which draws a circle and quad side by side.
 
 :::workflow
-![Create Window](../workflows/multiple-stimuli-publish.bonsai)
+![Publish and Subscribe](../workflows/multiple-stimuli-publish.bonsai)
 :::
 
 For a video walkthrough of this process, see this youtube video.

@@ -8,13 +8,13 @@ Viewports define which region of visual space is used for the visual world.
 All viewports accept a `RenderFrame` as input and a `DrawX` stimuli as output as shown in the basic workflow below.
 
 :::workflow
-![Create Window](../workflows/overview-draw-circle.bonsai)
+![Basic Workflow](../workflows/overview-draw-circle.bonsai)
 :::
 
 ## 2D Stimuli
 
 :::workflow
-![Create Window](../workflows/drawing-region-2d-views.bonsai)
+![2D viewports](../workflows/drawing-region-2d-views.bonsai)
 :::
 
 ### NormalizedView
@@ -32,7 +32,7 @@ I.e. a quad with an extent of 1 will have a side length equal to the length of t
 ## 3D Stimuli
 
 :::workflow
-![Create Window](../workflows/drawing-region-3d-views.bonsai)
+![3D viewports](../workflows/drawing-region-3d-views.bonsai)
 :::
 
 ### PerspectiveView
@@ -43,7 +43,7 @@ I.e. a quad with an extent of 1 will have a side length equal to the length of t
 > Using a 2D `DrawX` stimuli node with a `PerspectiveView` will throw a method overload error. In the example below, we have replaced the 2D draw circle with a 3D `DrawModel` node to draw a 3d plane.
 
 :::workflow
-![Create Window](../workflows/drawing-region-perspective-view.bonsai)
+![Perspective View](../workflows/drawing-region-perspective-view.bonsai)
 :::
 
 

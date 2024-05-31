@@ -11,7 +11,7 @@ By 'Logging' we refer to saving information relavant for the experiment. In gene
 We created three nodes that can deal with all the three types of logging. These nodes are: `FrameEventLogger`, `EventLog` & `LogEvent`. The logger saves data to a .csv file and there are three aspects saved 
 
 :::workflow
-![Create Window](../workflows/logging-all-loggers.bonsai)
+![All Loggers](../workflows/logging-all-loggers.bonsai)
 :::
 
 `FrameEventLogger`: This is used to setup a logger that can be used to  It needs to be placed after `RenderFrame`. The first time this is encountered, it starts the clocks, both the frame counter and time. It also opens the .csv file that is specified where the information is saved. A logger then becomes a behaviour subject that can be accessed in the rest of the workflow. 
@@ -35,7 +35,7 @@ Here, we describe how to inplment the logging scenarios at the beginning of the 
 To log the frame index and the time at which every frame was presented, duplicate the `RenderFrame` node, connect a `FrameEventLogger` with a subject called `Frames` followed by a `LogEvent` node that subscribes to the `Frames` subject.
 
 :::workflow
-![Create Window](../workflows/logging-frame-event.bonsai)
+![Logging Frame Event](../workflows/logging-frame-event.bonsai)
 :::
 
 > [!WARNING]
@@ -46,7 +46,7 @@ To log the frame index and the time at which every frame was presented, duplicat
 To log stimulus presentation, create a second `FrameEventLogger` branch with a new subject called `Stimulus`, but this time, place a `LogEvent` node that subscribes to the `Stimulus` subject after a `DrawX` stimuli node. In this example workflow, the stimuli is presented after 5 seonds, and the `LogEvent` only logs when the stimuli is onscreen.
 
 :::workflow
-![Create Window](../workflows/logging-stimulus-presentation.bonsai)
+![Logging Stimulus Presentation](../workflows/logging-stimulus-presentation.bonsai)
 :::
 
 > [!NOTE]
@@ -56,7 +56,7 @@ To log stimulus presentation, create a second `FrameEventLogger` branch with a n
 ### C. Logging stimulus parameters
 To log stimulus parameters, we would use the same method for logging stimulus presentation, but connect the `LogEvent` to the parameter that is being varied. 
 :::workflow
-![Create Window](../workflows/logging-stimulus-parameters.bonsai)
+![Logging Stimulus Parameters](../workflows/logging-stimulus-parameters.bonsai)
 :::
 
 ### D. Logging external events
@@ -69,5 +69,5 @@ To log external events that are happening (such as keypresses or an animal carry
 > The two `LogEvents` after the keypresses can subscribe to the same `Events` subject so you do not need to create a separate file for every event.
 
 :::workflow
-![Create Window](../workflows/logging-keydown.bonsai)
+![Logging Keydown](../workflows/logging-keydown.bonsai)
 :::

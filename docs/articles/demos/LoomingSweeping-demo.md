@@ -7,7 +7,7 @@ You can copy and paste the workflows below directly into the `Bonsai` window by 
 ## Looming Stimulus
 
 :::workflow
-![Create Window](../../workflows/demo-looming.bonsai)
+![Looming Demo](../../workflows/demo-looming.bonsai)
 :::
 
 ### Usage
@@ -17,7 +17,7 @@ Just hit Start in the menu. Press the `space bar` to initate the looming stimulu
 ## Sweeping Stimulus
 
 :::workflow
-![Create Window](../../workflows/demo-sweeping.bonsai)
+![Sweeping Demo](../../workflows/demo-sweeping.bonsai)
 :::
 
 ### Usage

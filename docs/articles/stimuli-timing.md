@@ -9,7 +9,7 @@ Connect a `Timer` operator to the `SubscribeWhen` operator and adjust the `DueTi
 This workflow draws a circle after five seconds has elapsed.
 
 :::workflow
-![Create Window](../workflows/timing-stimuli-subscribewhen.bonsai)
+![Triggering Stimuli](../workflows/timing-stimuli-subscribewhen.bonsai)
 :::
 
 > [!Warning]
@@ -23,7 +23,7 @@ Simply replace the `SubscribeWhen` operator with the `TakeUntil` operator.
 This workflow starts with a drawn circle, and the circle dissappears after five seconds.
 
 :::workflow
-![Create Window](../workflows/timing-stimuli-takeuntil.bonsai)
+![Terminating Stimuli](../workflows/timing-stimuli-takeuntil.bonsai)
 :::
 
 
@@ -36,7 +36,7 @@ Combine the operators together to control both the onset and offset of stimuli.
 This workflow draws a circle after two seconds has elapsed, and the circle remains on screen for two seconds.
 
 :::workflow
-![Create Window](../workflows/timing-stimuli-combined-takeuntil-subscribewhen.bonsai)
+![Triggering and Terminating Stimuli](../workflows/timing-stimuli-combined-takeuntil-subscribewhen.bonsai)
 :::
 
 ## Looping Stimuli
@@ -45,7 +45,7 @@ To loop stimuli, add a `Repeat` operator to the end of the sequence.
 This workflow loops a circle for two seconds on and two seconds off.
 
 :::workflow
-![Create Window](../workflows/timing-stimuli-looping.bonsai)
+![Looping Stimuli](../workflows/timing-stimuli-looping.bonsai)
 :::
 
 > [!Note]
@@ -59,7 +59,7 @@ Since the branches are separate, they can have different timing progressions.
 This workflow below draws a circle on the left and a quad on the right with different timings for both.
 
 :::workflow
-![Create Window](../workflows/timing-stimuli-multiple.bonsai)
+![Timing Multiple Stimuli](../workflows/timing-stimuli-multiple.bonsai)
 :::
 
 
@@ -73,7 +73,7 @@ multiple branches of `DrawStimuli`. The `Concat` operator combines any number of
 
 The workflow below alternates between a circle on the left and a quad on the right.
 :::workflow
-![Create Window](../workflows/timing-stimuli-sequential.bonsai)
+![Sequential Presentation of Stimuli](../workflows/timing-stimuli-sequential.bonsai)
 :::
 
 
@@ -83,7 +83,7 @@ the `Timer` operator with a `KeyDown` operator, stimuli presentation can be link
 
 This workflow draws a circle when the `space bar` is pressed, and the circle disappears when the `a` button is pressed.
 :::workflow
-![Create Window](../workflows/timing-stimuli-keydown.bonsai)
+![Timing Stimuli with Keypresses](../workflows/timing-stimuli-keydown.bonsai)
 :::
 
 This also opens up possibilities for close-loop presentation of visual stimuli. For instance, visual stimuli can be linked to lever presses for operant conditioning tasks, as well as to 

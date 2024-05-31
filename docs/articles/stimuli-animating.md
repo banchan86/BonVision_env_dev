@@ -11,7 +11,7 @@ To get started:
 The workflow will look something like this (which shows a circle moving across the screen repeatedly)
 
 :::workflow
-![Create Window](../workflows/animating-stimuli-circle-locationx.bonsai)
+![Animating Circle](../workflows/animating-stimuli-circle-locationx.bonsai)
 :::
 
 > [!Note]
