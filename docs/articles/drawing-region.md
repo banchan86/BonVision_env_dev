@@ -40,7 +40,7 @@ I.e. a quad with an extent of 1 will have a side length equal to the length of t
 `PerspectiveView` is the preferred viewport for displaying 3D stimuli such as 3D models or scenes.
 
 > [!Warning] 
-> Using a 2D `DrawX` stimuli node with a `PerspectiveView` will throw a method overload error. In the example below, we have replaced the 2D draw circle with a 3D `DrawModel` node to draw a 3d plane.
+> Using a 2D `DrawX` stimuli node with a `PerspectiveView` will throw a method overload error. In the example below, we have replaced the 2D draw circle with a 3D `DrawModel` node to draw a 3D plane.
 
 :::workflow
 ![Perspective View](../workflows/drawing-region-perspective-view.bonsai)
@@ -49,6 +49,6 @@ I.e. a quad with an extent of 1 will have a side length equal to the length of t
 
 ### CubemapView
 `CubemapView` is the preferred viewport for display 3D environments such as those commonly used for virtual reality or augmented reality.
-It specifies multiple views that are used to render the 6 different faces of a cubemap texture
+It specifies multiple views that are used to render the 6 different faces of a cubemap texture.
 
 - to add example workflow (maybe modify VR treadmill example)

@@ -1,10 +1,6 @@
 # Multiple Stimuli
 `BonVision` has three methods for drawing multiple stimuli in the same window.
 
-## Passing multiple values to DrawX nodes
-
-
-
 ## Array Primitives
 For several stimuli primitives, `BonVision` includes array versions of these primitives that can be used to draw several of them simultaneously.
 
@@ -12,10 +8,24 @@ For several stimuli primitives, `BonVision` includes array versions of these pri
 ![Array Primitives](../workflows/array-primitives.bonsai)
 :::
 
+These primitives can only be used to draw duplicate stimuli but with different positions.
 * to add more details
 
+## Using SelectMany to Pass An Array of Values
+For finer control over the stimulus parameters, one can pass multiple values for each of the properties in a `DrawX` stimuli using a [SelectMany](https://bonsai-rx.org/docs/api/Bonsai.Reactive.SelectMany.html) operator.
+In this example workflow, we have generated two ranges of values using a `ParameterRange` operator, which we then `Zip` and pass along to a `SelectMany` operator. The `SelectMany` operator generates one observable
+sequence for each input then merges the results into a single sequence. Within the `SelectMany` operator. we use an `InputMapping` operator to map the two values to the `LocationX` and `Contrast` of a `DrawGrating` node.
+Lastly we use a `CombineLatest` operator to issue a `Draw` call for each element that is produced. The end result is a row of gratings with different contrast and position.
+
+- Shawn's note - This is how I understand this example workflow I saw on the Bonvision Examples repo, not sure if the explaination is correct.
+
+:::workflow
+![SelectMany Example](../workflows/multiple-stimuli-selectmany.bonsai)
+:::
+
+
 ## Publish and Subscribe Subject
-For scenarios not covered by the above primitives, we can use the `PublishSubject` and `SubscribeSubject` operators to give multiple drawing commands to the `RenderFrame` operator.
+For different stimuli, we can use the `PublishSubject` and `SubscribeSubject` operators to give multiple drawing commands to the `RenderFrame` operator.
 [Subjects](https://bonsai-rx.org/docs/articles/subjects.html) are a special type of operator that allow reusing and sharing of observable sequences.
 
 To get started:

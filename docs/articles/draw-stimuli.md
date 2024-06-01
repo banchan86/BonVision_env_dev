@@ -1,5 +1,5 @@
 # Draw Stimuli
-## Under construction - to add more details
+
 `Bonvision` comes with a set of operators/primitives to draw basic shapes, display images and video, render common visual neuroscience stimuli, and display complex scenes and 3d models.
 
 The starting point to test these out is a basic workflow (which was covered in the overview section)
@@ -25,7 +25,7 @@ Using these primitives are straightforward, there are properties to change the l
 In order to display images and videos, they have to be first loaded as a resource during the `Create Section` portion of the workflow using the `TextureResources` operator. Double click the `TextureResources`operator and add the image as a `ImageTexture` or `VideoTexture`.
 
 :::workflow
-![Draw Image](../workflows/draw-stimuli-image-draw-image.bonsai)
+![Draw Image](../workflows/draw-stimuli-draw-image.bonsai)
 :::
 
 `BonVision` also provides a way to display an image from a set of images using an `ImageSequence`. To do so, package the set of images as a video file and load them into the `TextureResources` operator as an `ImageSequence`.
@@ -53,6 +53,9 @@ In this example workflow, pressing the spacebar samples from a random number dis
 :::workflow
 ![Neuroscience Primitives](../workflows/draw-stimuli-neuroscience-primitives.bonsai)
 :::
+
+While using these primitives are pretty straightforward, as gratings are commonly used in visual physiology experiments we have created a few additional nodes to help design grating experiments. These will be covered in more detail in the [Grating Stimuli](stimuli-grating.md) article.
+
 
 ## 3D Model and Scene primitives
 
