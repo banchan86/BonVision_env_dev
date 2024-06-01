@@ -9,19 +9,26 @@ For several stimuli primitives, `BonVision` includes array versions of these pri
 :::
 
 These primitives can only be used to draw duplicate stimuli but with different positions.
-* to add more details
+
+- Shawn's note - I would like to add more details here about generating the input for these primitives but I am unable to find an example workflow to copy from and have not been able to figure it out myself. I saw an example on https://bonsai-rx.org/docs/tutorials/scripting.html but have trouble getting the `CSharpTransform` operator to work.
+
 
 ## Using SelectMany to Pass An Array of Values
 For finer control over the stimulus parameters, one can pass multiple values for each of the properties in a `DrawX` stimuli using a [SelectMany](https://bonsai-rx.org/docs/api/Bonsai.Reactive.SelectMany.html) operator.
-In this example workflow, we have generated two ranges of values using a `ParameterRange` operator, which we then `Zip` and pass along to a `SelectMany` operator. The `SelectMany` operator generates one observable
-sequence for each input then merges the results into a single sequence. Within the `SelectMany` operator. we use an `InputMapping` operator to map the two values to the `LocationX` and `Contrast` of a `DrawGrating` node.
-Lastly we use a `CombineLatest` operator to issue a `Draw` call for each element that is produced. The end result is a row of gratings with different contrast and position.
+In this example workflow, 
+
+1) We have generated two ranges of values using a `ParameterRange` operator, which we then `Zip` and pass along to a `SelectMany` operator named `Create Gratings`. The `SelectMany` operator generates one observable sequence for each input then merges the results into a single sequence. 
+2) Double click on the `SelectMany` operator to view the embedded workflow. Within the `SelectMany` operator, we use an `InputMapping` operator to map the two values to the `LocationX` and `Contrast` of a `DrawGrating` node. 
+3) Lastly we use a `CombineLatest` operator to issue a `Draw` call for each element that is produced. The end result is a row of gratings with different contrast and position.
 
 - Shawn's note - This is how I understand this example workflow I saw on the Bonvision Examples repo, not sure if the explaination is correct.
 
 :::workflow
 ![SelectMany Example](../workflows/multiple-stimuli-selectmany.bonsai)
 :::
+
+> [!Note]
+> The `DrawStimuli` nodes in the example workflow are a `PublishSubject` and `SubscribeSubject` pair which we will cover below.
 
 
 ## Publish and Subscribe Subject

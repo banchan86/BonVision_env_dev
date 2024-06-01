@@ -3,7 +3,6 @@
   href: ../index.md
 - href: installation.md
 - name: Background Concepts
-- href: stimulus-generation-basics.md
 - href: display-environment-basics.md
 - name: Workflow
 - href: basic-workflow.md

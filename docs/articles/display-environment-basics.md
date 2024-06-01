@@ -8,7 +8,7 @@ In the following sections we describe the main assumptions and design decisions 
 
 One of the major goals for BonVision was to unify the specification of both 2D and 3D visual environments into a common representation that would allow sharing experiments across multiple display configurations, including domes, toruses, display grids and other geometrical arrangements.
 
-To achieve this, the main design decision was to decouple the [Display](/pages/02-Display-Environment-basics) environment from the [Stimulus Generation](/pages/02a-Stimulus-Generation) logic. This allows users of BonVision to write tasks in standard units (either degrees of visual field for 2D or metric units for 3D), and then run them unmodified on any correctly calibrated rig.
+To achieve this, the main design decision was to decouple the Display environment from the Stimulus Generation logic. This allows users of BonVision to write tasks in standard units (either degrees of visual field for 2D or metric units for 3D), and then run them unmodified on any correctly calibrated rig.
 
 We use [cube mapping](https://en.wikipedia.org/wiki/Cube_mapping) as a way to efficiently specify the entire surrounding environment of an experimental subject, both for 2D and 3D environments. In this technique, 6 different faces of a cube, each covering exactly a 90º field of view volume, are combined to describe the entire 360º environment (a.k.a. a skybox):
 
