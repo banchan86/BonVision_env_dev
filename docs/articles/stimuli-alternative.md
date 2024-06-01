@@ -17,4 +17,29 @@ In this example workflow, we use dynamic textures to display a webcam feed.
 
 ## Loading from CSV
 
+Alternatively, one can also load stimuli parameters from a CSV file.
+In this example workflow, we load grating stimuli parameters from a CSV file to draw a series of grating stimuli.
+
+1) Load a CSV file with 4 columns for `Orientation`, `TemporalFrequency`, `Contrast` and `Duration` using the `CsvReader` node.
+
+2) Use an `ExpressionTransform` node with the script to parse our integers as variables:
+
+```C#
+new(Double.Parse(it[0]) * Math.PI/180 as Orientation,
+Double.Parse(it[1]) as TemporalFrequency,
+Double.Parse(it[2]) as Contrast,
+Double.Parse(it[3]) as Duration
+)
+```
+
+3) Use an `InputMapping` node to match the variables from the output of the `ExpressionTransform` node to the properties of the `CreateGratingTrial` node.
+
+:::workflow
+![Loading from CSV](../workflows/alternative-stimuli-csv-loading.bonsai)
+:::
+
+- Shawn's note Does this only apply to grating stimuli? or can this be used for other stimuli too?
+
 ## Loading from scripting
+
+* to be added
