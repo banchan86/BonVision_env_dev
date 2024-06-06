@@ -22,7 +22,7 @@ In this example workflow, we load grating stimuli parameters from a CSV file to 
 
 1) Load a CSV file with 4 columns for `Orientation`, `TemporalFrequency`, `Contrast` and `Duration` using the `CsvReader` node.
 
-2) Use an `ExpressionTransform` node with the script to parse our integers as variables:
+2) Use an `ExpressionTransform` node with the script below to parse our integers as variables:
 
 ```C#
 new(Double.Parse(it[0]) * Math.PI/180 as Orientation,
@@ -32,7 +32,7 @@ Double.Parse(it[3]) as Duration
 )
 ```
 
-3) Use an `InputMapping` node to match the variables from the output of the `ExpressionTransform` node to the properties of the `CreateGratingTrial` node.
+3) Use an `InputMapping` node to match the variables from the output of the `ExpressionTransform` node to the properties of the `CreateGratingTrial` node (In the example workflow, because we have matched the variables the `InputMapping` node takes on the name of the variables being mapped).
 
 :::workflow
 ![Loading from CSV](../workflows/alternative-stimuli-csv-loading.bonsai)

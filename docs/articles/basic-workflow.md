@@ -25,7 +25,7 @@ such as 3D models and textures are required, load them at this step using the op
 
 ## Drawing Region
 
-This defines which region of visual space is used for the visual world. For the purpose of prototyping stimuli, use `NormalisedView`.
+This defines which region of visual space is used for the visual world as well as the units for the parameters (sizes/locations) that stimuli are drawn with. For the purpose of prototyping stimuli, use `NormalisedView`.
 
 :::workflow
 ![Drawing Region](../workflows/overview-normalized.bonsai)
@@ -56,19 +56,9 @@ If `SphereMapping` is used, the Define display section next is necessary
 
 Here we define the parameters of the display system (eg. monitor) by adding a `ViewingWindow` and a `DrawViewport` node.
 
-> [!Warning]
-> * Shawn's note - For some reason an error in the SphereMapping workflow below crops up for me, I have included it in case someone can troubleshoot it for me.
-
 :::workflow
-![Sphere Mapping](../workflows/overview-sphere-map-doesntwork.bonsai)
+![Sphere Mapping](../workflows/overview-map-stimuli-define-display.bonsai)
 :::
-
-Additional displays can be defined by adding multiple `ViewingWindow`/`DrawViewport` nodes.
-
-:::workflow
-![Multiple Displays](../workflows/overview-multiple-displays.bonsai)
-:::
-
 
 ### Video Walkthrough
 <div style="max-width: 500px">

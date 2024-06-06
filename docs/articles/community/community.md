@@ -8,14 +8,14 @@ YouTube Channel: [Learning materials and demos](https://www.youtube.com/channel/
 
 Issues: [Report issues on Bonvision Github](https://github.com/bonvision/BonVision/issues)
 
-Forums: [Bonsai Github Discussions](https://github.com/orgs/bonsai-rx/discussions): We will be using the Bonsai github forum for BonVision discussions, as some issues can be overlapping and related to the Bonsai framework rather than the specifics of BonVision. 
+Forums: [Bonsai Github Discussions](https://github.com/orgs/bonsai-rx/discussions) (We will be using the Bonsai github forum for BonVision discussions, as some issues can be overlapping and related to the Bonsai framework rather than the specifics of BonVision)
 
 Bonsai: [Learn more about Bonsai](https://bonsai-rx.org/), [Bonsai Documentation](https://bonsai-rx.org/docs/)
 
 ## Example Scripts
 
-[Examples:](https://github.com/bonvision/examples)
-A collection of example workflows.
+Examples: [A collection of example workflows for Bonvision](https://github.com/bonvision/examples)
+
 
 ## Current User Groups
 1. [Saleem lab, UCL, London](https://www.saleemlab.com)
