@@ -1,7 +1,5 @@
 # Vision Psychophysics - 2AFC 
 
-* Shawn's note - The existing 2AFC demo in the Bonvision examples repository does not work (the grating orientations do not change, might be a problem with the `EnsureGratingParameters` operator which seems to be outdated), I have used the version from https://bonsai-rx.org/docs/tutorials/vision-psychophysics.html.
-
 This is a demo of a simple orientation discrimination vision psychophysics task using a two-alternative forced choice paradigm.
 
 You can copy and paste the workflow below directly into the `Bonsai` window by clicking on the copy button on the top right of the container.

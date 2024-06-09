@@ -1,7 +1,5 @@
 # Mesh Mapping
 
-* Shawn's note - this article seems to be complete but I am unable to test the workflow out as I don't have a secondary display or matlab, so I have simply copied over the content.
-
 __Protocol for producing a mesh-mapping file using Bonsai (EH, April 2021)__
 
 ## Purpose

@@ -17,14 +17,15 @@ However for other instances, you need to carefully consider the underlying behav
 
 ### What is the difference between the different view operators, for instance, an OrthographicView, a ViewWindow, and a DrawViewport.
 Although the naming convention is a bit confusing, these operators all have different purposes.
-The drawing view operators (`NormalizedView`/`OrthographicView`/`PerspectiveView`) determine which region of the visual space is being drawn, as well as the units that are being used to draw stimuli sizes/location.
-The `ViewWindow` operator are basically windows through which the subject is looking at the visual environment.
-The `DrawViewport` operator are operators that define different displays for rendering viewing windows.
+
+- The drawing view operators (`NormalizedView`/`OrthographicView`/`PerspectiveView`) determine which region of the visual space is being drawn, as well as the units that are being used to draw stimuli sizes/location.
+- The `ViewWindow` operator are basically windows through which the subject is looking at the visual environment.
+- The `DrawViewport` operator are operators that define different displays for rendering viewing windows.
 
 For a more in depth explanation, check out this youtube video:
 
 <div style="max-width: 500px">
-<iframe width=100% height = 282 src="https://www.youtube.com/watch?v=V_AMgMIpXew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width=100% height = 282 src="https://www.youtube.com/embed/V_AMgMIpXew" title="BonVision LiveCodingSession: Setting up Screens" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 

@@ -54,7 +54,7 @@ If `SphereMapping` is used, the Define display section next is necessary
 
 ### Define Display (optional)
 
-Here we define the parameters of the display system (eg. monitor) by adding a `ViewingWindow` and a `DrawViewport` node.
+Here we define the parameters of the display system by adding a `ViewingWindow` (which are windows into the visual environment) and a `DrawViewport` (for configuring 1 or more monitors) node.
 
 :::workflow
 ![Sphere Mapping](../workflows/overview-map-stimuli-define-display.bonsai)

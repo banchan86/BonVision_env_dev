@@ -3,26 +3,11 @@
 ## ViewWindow
 `ViewWindow` are windows into the virtual environment that is being rendered.
 
-A `ViewWindow` is a flat screen defined by 6 measurements. 
+To better illustrate how viewing windows interact with the visual environment, this is an example of the same stimulus (mapped onto a sphere) viewed through different viewing windows. 
+The first two rows are from a top down perspective, with the red dot indicating the subject and the lines indicating the placement of the viewing window.
+The images on the right hand side show the final image as viewed from those viewing windows.
 
-These are the measures that need to be added for each display object:
-1. Distance of left bottom corner (from eye)
-2. Distance of left top corner (from eye)
-3. Distance of right top corner (from eye)
-4. Distance of right bottom corner (from eye)
-5. Azimuth (horizontal angle from straight ahead) of the centre of the display
-6. Elevation (vertical angle from horizon) of the centre of the display
-
-
-This is an example of the same stimulus rendered on different displays:
-
-![](~/images/DisplayLogic/DisplayWindowLogic-01.png){width=500} 
-
-![](~/images/DisplayLogic/DisplayWindowLogic-03.png){width=500} 
-
-![](~/images/DisplayLogic/DisplayWindowLogic-05.png){width=500} 
-
-Images on A, B and C
+![View Window Examples](~/images/DisplayLogic/ViewWindow-examples-.png){width=500} 
 
 Each `ViewWindow` must be accompanied by a `DrawViewport` operator. Additional displays can be defined by adding multiple `ViewingWindow`/`DrawViewport` nodes.
 
@@ -35,17 +20,19 @@ Each `ViewWindow` must be accompanied by a `DrawViewport` operator. Additional d
 
 The `DrawViewport` operator draws the `ViewWindow` to a display and provides additional options for positioning the `ViewWindow` on a display.
 
-This example workflow illustrates how we can combine the `ViewWindow` and `DrawViewport` operators to flexibly position different views 
+This example workflow illustrates how we can combine the `ViewWindow` and `DrawViewport` operators to flexibly position different views (for instance, when we have two monitors side by side).
+A single checkboard is drawn in the visual environment and two `ViewWindows` are positioned side by side (by adjusting the `X-axis` variable in the `Translation` property). Then we draw
+the two views to two displays.
 
 
+:::workflow
+![Multiple Displays](../workflows/define-display-draw-viewport.bonsai)
+:::
 
-
+## Video Walkthrough 
 <div style="max-width: 500px">
-<iframe width=100% height = 282 src="https://www.youtube.com/watch?v=V_AMgMIpXew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width=100% height = 282 src="https://www.youtube.com/embed/V_AMgMIpXew" title="BonVision LiveCodingSession: Setting up Screens" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-
-
-
 
 
 ## (Optional) Post-processing Operators

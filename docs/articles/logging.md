@@ -1,7 +1,5 @@
 # Logging
 
-* Shawn's note - I was unable to find examples of when one would use `EventLogger` in place of `FrameEventLogger`, some clarification on that might be helpful. 
-
 By 'Logging' we refer to saving information relavant for the experiment. In general, there are four kinds of data one might want to log during an experiment: 
 - Duration of the experiment and timing of each frame
 - When were the stimuli presented

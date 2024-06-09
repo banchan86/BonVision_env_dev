@@ -1,6 +1,4 @@
 # Display Position
-## Under Construction
-* Shawn's note - this article seems to be incomplete and I am unable to fill in the missing blanks, thus I have simply copied over the content.
 
 The workflows in this article can be  [found here](https://github.com/bonvision/examples/tree/master/ScreenCalibration).
 
