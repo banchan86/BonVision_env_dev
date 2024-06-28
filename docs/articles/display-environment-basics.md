@@ -20,7 +20,7 @@ At runtime, each screen becomes a window that looks out into that surrounding en
 
 Once the cube mapping rendering pipeline is in place, we can very efficiently generate an arbitrary number of projections into the visual space for each display in the experiment. The remaining challenge is then how to generate the 6 faces of the cubemap in a way that accurately represents the visual field surrounding the subject.
 
-## 3D Stimuli
+### 3D Stimuli
 
 For 3D scenes, there is a straightforward solution: render the visual scene once for each face of the cube, with a perspective 90º field of view, as seen from the observer. Each rendered perspective will fill exactly one face of the cube. For example:
 
@@ -31,7 +31,7 @@ Using the cube mapping pipeline, one can then point a viewing window at any dire
 ![CubemapEnvironment](~/images/DisplayLogic/CubemapEnvironment.webp){width=500} 
 
 
-## 2D Stimuli
+### 2D Stimuli
 
 For 2D scenes, such as those containing gabor patches, checkerboards, gratings, random dots and so on, we would like to specify our environments in an orthonormal space, where X and Y represent longitude and latitude, respectively, in degrees of visual field. For example, below is a checkerboard stimulus covering 100 degrees of visual field horizontally and vertically, where each square subtends 10 degrees:
 
@@ -54,4 +54,27 @@ Other projections remove the distortion at the poles by distributing it across d
 The disadvantage is that the arrangement of the planar mapping is not orthonormal anymore, especially at the poles. At the moment BonVision makes use of a cylindrical projection, but improvements are being discussed at the moment to support different kinds of spherical mapping strategies to cover a larger number of cases.
 
 [More details on spherical mapping from the point of view of modelling software](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/UV_Map_Basics)
+
+## Virtual Reality vs Augmented Reality
+
+- Shawn's note - This needs more clarity as they both seem to be the same (fixed window, objects/environment),
+
+### Virtual Reality (VR)
+VR can be easily defined as a situation where the eye, and the screens (windows) are fixed positions, while the all the objects (or VR environment) moves across the eye.
+
+![VR](~/images/DisplayLogic/VRcartoon.png){width=500} 
+
+ Example rendering to be added here
+
+### For Augmented Reality (AR)
+
+This is a scenario where, generally, the screens remain in a fixed position and the animal can move around. Since we have an eye-centric coordinate frame, the objects and the screen move around to generate an AR. 
+
+![AR](~/images/DisplayLogic/ARcartoon.jpg){width=500} 
+
+ Example rendering to be added here
+
+
+
+
 

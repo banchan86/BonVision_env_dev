@@ -1,43 +1,24 @@
 # Map Stimuli
 
-## Under Construction
+## Sphere Mapping
 
-## A. Sphere Mapping
-> [!NOTE]
-> This is best for creating 2D stimuli.
-> [!NOTE]
-> Needs a Display object: preferably a ViewingWindow
+When rendering 3D environments, in the case of 3D stimuli, `BonVision` applies by default a cubemap rendering approach and no additional transformation/operators are necessary.
 
-[The details of the implementation of Sphere mapping](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/UV_Map_Basics)
-
-In this case, stimuli are always rendered onto the inside of a sphere. This allows easy eye-centric definitions of stimuli in visual angle units. The displays are then windows that observe these rendered stimuli. We use Spherical coordinates to define all stimulus parameters in this case. 
+However, in the case of 2D stimuli, we use `SphereMapping` to render them onto the inside of a 3D sphere to display them in a 3D space.
+More info can be found in the [Display Environments](display-environment-basics.md)
 
 ![SphericalCoord](~/images/DisplayLogic/SphericalCoord_resized.png){width=500} 
 
-## B. Cube Mapping
+This workflow below draws a checkboard which is mapped to a sphere using `SphereMapping`.
+
+:::workflow
+![Sphere Mapping](../workflows/overview-map-stimuli-define-display.bonsai)
+:::
+
 > [!NOTE]
-> This is best for creating 3D stimuli, for Virtual or Augmented Reality Systems.
+> `SphereMapping` requires a `ViewWindow`.
+
 > [!NOTE]
-> Needs a Display object: preferably a PerspectiveViewingWindow
-
-[The details of Cube Mapping are explained here:](https://en.wikipedia.org/wiki/Cube_mapping)
-
-In this case all the stimuli are created in eye-centric physical coordinates (centimeters for example) and rendered onto a unit Cube. The displays (Perspective cameras) are then windows into these rendered images.
-*probably easiest with a whiteboard drawing here*
-
-### For Virtual Reality (VR)
-VR can be easily defined as a situation where the eye, and the screens (windows) are fixed positions, while the all the objects (or VR environment) moves across the eye.
-
-![VR](~/images/DisplayLogic/VRcartoon.png){width=500} 
-
- Example rendering to be added here
-
-### For Augmented Reality (AR)
-
-This is a scenario where, generally, the screens remain in a fixed position and the animal can move around. Since we have an eye-centric coordinate frame, the objects and the screen move around to generate an AR. 
-
-![AR](~/images/DisplayLogic/ARcartoon.jpg){width=500} 
-
- Example rendering to be added here
+> When drawing stimuli, `SphereMapping` requires a `PublishSubject` and `SubscribeSubject` pair (see the [multiple stimuli](stimuli-multiple.md) for instructions on how to use `Subjects` and this [link](https://github.com/orgs/bonsai-rx/discussions/1835) for an explanation of the reasons).
 
 

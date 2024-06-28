@@ -48,13 +48,11 @@ This is where you generate all the aspects of the visual environment.
 
 ### Map Stimuli (optional)
 
-This is where the stimulus is rendered onto a a surface. This can be skipped for prototyping. Ideally one should use `SphereMapping`. 
-If `SphereMapping` is used, the Define display section next is necessary
-
+This is where 2D stimuli are rendered onto a surface for display in 3D environments using the `SphereMapping` operator. More information can be found in the [Display Environments](display-environment-basics.md).
 
 ### Define Display (optional)
 
-Here we define the parameters of the display system by adding a `ViewingWindow` (which are windows into the visual environment) and a `DrawViewport` (for configuring 1 or more monitors) node.
+Here we define the parameters of the display system by adding a `ViewingWindow` (which are windows into the visual environment) and a `DrawViewport` (for configuring 1 or more monitors) operator.
 
 :::workflow
 ![Sphere Mapping](../workflows/overview-map-stimuli-define-display.bonsai)

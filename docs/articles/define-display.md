@@ -35,7 +35,7 @@ the two views to two displays.
 </div>
 
 
-## (Optional) Post-processing Operators
+## Post-processing Operators (optional) 
 Bonvision comes with post-processing operators to correct for various distortions in the final display of the image. These operators would be placed between the `ViewWindow` and `DrawViewport` operator.
 
 ### PerspectiveMapping and MeshMapping

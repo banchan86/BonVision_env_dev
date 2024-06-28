@@ -88,7 +88,7 @@ In this example workflow, we use `CubemapView` to simulate the walls of a virtua
 > `CubemapView` requires two additional nodes for a basic workflow, a `RenderCubemap` operator from the `Bonsai.Shaders` package (included as a dependency) that renders the cubemap and a `ViewWindow` that looks out into the virtual environment.
 
 > [!Note] 
-> While the description of the operator suggests that you need to define all 6 faces of the cubemap, you can display an arbitary number of textures.
+> While the description of the operator suggests that you need to define six textures for each face of the cubemap, you can display an arbitary number of textures (including less than six).
 
 ### Other nodes to document (under construction)
 `HMDview`
