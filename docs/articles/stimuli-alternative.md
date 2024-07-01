@@ -1,5 +1,4 @@
 # Alternative Stimuli Creation
-## Under Construction
 ## Dynamic Textures
 In addition to loading premade textures and videos, `BonVision` can display dynamic textures generated online or from other sources. 
 
