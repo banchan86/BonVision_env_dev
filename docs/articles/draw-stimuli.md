@@ -53,7 +53,7 @@ In this example workflow, pressing the spacebar samples from a random number dis
 ![Neuroscience Primitives](../workflows/draw-stimuli-neuroscience-primitives.bonsai)
 :::
 
-These neuroscience primitives are covered in more detail in the [Neuroscience Stimuli](neuroscience-stimuli.md) article.
+These neuroscience primitives are covered in more detail in the [Neuroscience Stimuli](stimuli-neuroscience.md) article.
 
 
 ## 3D Model and Scene primitives
