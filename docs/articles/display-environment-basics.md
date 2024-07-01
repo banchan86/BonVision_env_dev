@@ -57,10 +57,10 @@ The disadvantage is that the arrangement of the planar mapping is not orthonorma
 
 ## Virtual Reality vs Augmented Reality
 
-- Shawn's note - This needs more clarity as they both seem to be the same (fixed window, objects/environment),
+- Shawn's note - This needs more clarity as they both seem to be the same (fixed window/eye, objects/environment move around).
 
 ### Virtual Reality (VR)
-VR can be easily defined as a situation where the eye, and the screens (windows) are fixed positions, while the all the objects (or VR environment) moves across the eye.
+VR can be easily defined as a situation where the eye, and the screens (windows) are fixed positions, while all the objects (or VR environment) moves across the eye.
 
 ![VR](~/images/DisplayLogic/VRcartoon.png){width=500} 
 

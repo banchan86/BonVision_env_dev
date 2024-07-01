@@ -51,3 +51,6 @@ The `MeshMapping` operator is best used to correct distortions when projecting d
 
 The `GammaCorrection` operator applies simple intensity mapping of the three colors, to make sure the stimuli are linear. It uses a simple LUT (Look-up-table), for Red, Green and Blue. Check out the [gamma calibration](./gamma-calibration.md) article for more information on how to measure and calibrate this operator.
 
+## Other nodes to document (under construction)
+`ViewMapping`
+

@@ -18,7 +18,7 @@ All drawing views accept a `RenderFrame` as input and a `DrawX` stimuli as outpu
 :::
 
 ### NormalizedView
-`NormalizedView`is the default view for rapid prototyping of 2D stimuli.
+`NormalizedView` is the default view for rapid prototyping of 2D stimuli.
 
  This view scales the screen from -1 to 1 on both axes and has no properties to adjust.
 
@@ -81,7 +81,7 @@ Stimuli drawn will have sizes and locations defined in terms of metric units.
 In this example workflow, we use `CubemapView` to simulate the walls of a virtual 3D room. This example workflow is a stripped down version of the virtual reality corridor in [Demos](demos/VR-demo.md) and requires downloading of the textures in that article. 
 
 :::workflow
-![Perspective View](../workflows/drawing-region-cubemapview.bonsai)
+![Perspective View](../workflows/drawing-region-cubemap-view.bonsai)
 :::
 
 > [!Note] 
@@ -91,4 +91,4 @@ In this example workflow, we use `CubemapView` to simulate the walls of a virtua
 > While the description of the operator suggests that you need to define six textures for each face of the cubemap, you can display an arbitary number of textures (including less than six).
 
 ### Other nodes to document (under construction)
-`HMDview`
+`HMDview` and `RenderHMD`

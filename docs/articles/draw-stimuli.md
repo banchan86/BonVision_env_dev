@@ -2,8 +2,7 @@
 
 `Bonvision` comes with a set of operators/primitives to draw basic shapes, display images and video, render common visual neuroscience stimuli, and display complex scenes and 3d models.
 
-The starting point to test these out is a basic workflow (which was covered in the overview section)
-
+The starting point to test these out is a basic workflow (which was covered in the [overview](basic-workflow.md) section). 
 :::workflow
 ![Basic Workflow](../workflows/overview-draw-circle.bonsai)
 :::
@@ -54,7 +53,7 @@ In this example workflow, pressing the spacebar samples from a random number dis
 ![Neuroscience Primitives](../workflows/draw-stimuli-neuroscience-primitives.bonsai)
 :::
 
-While using these primitives are pretty straightforward, as gratings are commonly used in visual physiology experiments we have created a few additional nodes to help design grating experiments. These will be covered in more detail in the [Grating Stimuli](stimuli-grating.md) article.
+These neuroscience primitives are covered in more detail in the [Neuroscience Stimuli](neuroscience-stimuli.md) article.
 
 
 ## 3D Model and Scene primitives
@@ -62,6 +61,8 @@ While using these primitives are pretty straightforward, as gratings are commonl
 :::workflow
 ![3D Model and Scene Primitives](../workflows/draw-stimuli-scene-model-primitives.bonsai)
 :::
+
+### DrawModel
 
 `DrawModel` is used to display 3D models without textures. `DrawModel` supports 3D models in the `.obj` file format.
 The models have to be first loaded as a resource during the `Create Section` portion of the workflow using the `MeshResources` operator (which loads mesh or geometry resources).
@@ -73,6 +74,8 @@ In the `DrawModel` node, select the model `icosphere` under the `MeshName` prope
 :::workflow
 ![Draw Model](../workflows/draw-stimuli-model.bonsai)
 :::
+
+### DrawTexturedModel
 
 `DrawTexturedModel` is used to display 3D models with textures.  To use `DrawTexturedModel`, during the `Create Section` portion of the workflow the model needs to be loaded using using the  `MeshResources` operator and the texture needs to be loaded using the `TextureResources` operator (which loads image or video resources).
 
@@ -92,6 +95,8 @@ Lastly add the `DrawTexturedModel` operator after the `BindTexture` operator, ch
 
 > [!Note]
 > A common use case for this node would be to create walls for VR environments with different textures and shapes. Bonvision comes with a inbuilt mesh called `Plane` that can be used for this purpose (it does not need to be loaded first with the `MeshResources` operator). Check out the VR corridor under the Demo section of the website for a walkthrough.
+
+### DrawSceneModel
 
 `DrawSceneModel` is used to display complex 3D scenes and models.  To use the `DrawSceneModel`, during the `Create Section` portion of the workflow the scene needs to be loaded using using the `SceneResources` operator.The `SceneResources` operator uses the [Open Asset Import Library (assimp)](https://github.com/assimp/assimp) for loading scene files. 
 
