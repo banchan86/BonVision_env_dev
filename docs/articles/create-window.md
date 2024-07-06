@@ -1,4 +1,4 @@
-# CreateWindow
+# Create Window
 :::workflow
 ![Create Window](../workflows/create-window.bonsai)
 :::

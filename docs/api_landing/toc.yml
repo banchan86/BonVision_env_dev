@@ -37,3 +37,4 @@
   name: OptionalFloatProperty
 - uid: BonVision.RotationProperty
   name: RotationProperty
+- memberLayout: SeparatePages

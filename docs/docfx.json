@@ -23,7 +23,8 @@
         "exclude": [
           "_site/**",
           "filter.yml",
-          "bonsai/**"
+          "bonsai/**",
+          "api/toc.yml"
         ]
       }
     ],
