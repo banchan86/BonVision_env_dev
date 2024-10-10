@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/BonVision/CreateTextureScale.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: CreateTextureScale
     path: ../src/BonVision/CreateTextureScale.cs
@@ -56,7 +56,7 @@ items:
   source:
     remote:
       path: src/BonVision/CreateTextureScale.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: .ctor
     path: ../src/BonVision/CreateTextureScale.cs
@@ -85,7 +85,7 @@ items:
   source:
     remote:
       path: src/BonVision/CreateTextureScale.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: X
     path: ../src/BonVision/CreateTextureScale.cs
@@ -128,7 +128,7 @@ items:
   source:
     remote:
       path: src/BonVision/CreateTextureScale.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Y
     path: ../src/BonVision/CreateTextureScale.cs
@@ -171,7 +171,7 @@ items:
   source:
     remote:
       path: src/BonVision/CreateTextureScale.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Generate
     path: ../src/BonVision/CreateTextureScale.cs
@@ -203,7 +203,7 @@ items:
   source:
     remote:
       path: src/BonVision/CreateTextureScale.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Generate
     path: ../src/BonVision/CreateTextureScale.cs

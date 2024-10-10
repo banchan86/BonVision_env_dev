@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/BonVision/RotationProperty.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: RotationProperty
     path: ../src/BonVision/RotationProperty.cs
@@ -73,7 +73,7 @@ items:
   source:
     remote:
       path: src/BonVision/RotationProperty.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Value
     path: ../src/BonVision/RotationProperty.cs
@@ -108,7 +108,7 @@ items:
   source:
     remote:
       path: src/BonVision/RotationProperty.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: ValueXml
     path: ../src/BonVision/RotationProperty.cs
@@ -149,7 +149,7 @@ items:
   source:
     remote:
       path: src/BonVision/RotationProperty.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Process
     path: ../src/BonVision/RotationProperty.cs
@@ -177,7 +177,7 @@ items:
   source:
     remote:
       path: src/BonVision/RotationProperty.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Process
     path: ../src/BonVision/RotationProperty.cs

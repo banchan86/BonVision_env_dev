@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/BonVision/CreateTextureShift.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: CreateTextureShift
     path: ../src/BonVision/CreateTextureShift.cs
@@ -55,7 +55,7 @@ items:
   source:
     remote:
       path: src/BonVision/CreateTextureShift.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: X
     path: ../src/BonVision/CreateTextureShift.cs
@@ -98,7 +98,7 @@ items:
   source:
     remote:
       path: src/BonVision/CreateTextureShift.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Y
     path: ../src/BonVision/CreateTextureShift.cs
@@ -141,7 +141,7 @@ items:
   source:
     remote:
       path: src/BonVision/CreateTextureShift.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Generate
     path: ../src/BonVision/CreateTextureShift.cs
@@ -173,7 +173,7 @@ items:
   source:
     remote:
       path: src/BonVision/CreateTextureShift.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Generate
     path: ../src/BonVision/CreateTextureShift.cs

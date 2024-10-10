@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/BonVision/CreateSparseNoiseGrid.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: CreateSparseNoiseGrid
     path: ../src/BonVision/CreateSparseNoiseGrid.cs
@@ -74,7 +74,7 @@ items:
   source:
     remote:
       path: src/BonVision/CreateSparseNoiseGrid.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Rows
     path: ../src/BonVision/CreateSparseNoiseGrid.cs
@@ -103,7 +103,7 @@ items:
   source:
     remote:
       path: src/BonVision/CreateSparseNoiseGrid.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Columns
     path: ../src/BonVision/CreateSparseNoiseGrid.cs
@@ -132,7 +132,7 @@ items:
   source:
     remote:
       path: src/BonVision/CreateSparseNoiseGrid.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: ActiveQuads
     path: ../src/BonVision/CreateSparseNoiseGrid.cs
@@ -161,7 +161,7 @@ items:
   source:
     remote:
       path: src/BonVision/CreateSparseNoiseGrid.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Process
     path: ../src/BonVision/CreateSparseNoiseGrid.cs
@@ -197,7 +197,7 @@ items:
   source:
     remote:
       path: src/BonVision/CreateSparseNoiseGrid.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Process
     path: ../src/BonVision/CreateSparseNoiseGrid.cs

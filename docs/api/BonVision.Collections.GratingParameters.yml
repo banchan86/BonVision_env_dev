@@ -35,7 +35,7 @@ items:
   source:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: GratingParameters
     path: ../src/BonVision/Collections/GratingsSpecification.cs
@@ -69,7 +69,7 @@ items:
   source:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Delay
     path: ../src/BonVision/Collections/GratingsSpecification.cs
@@ -98,7 +98,7 @@ items:
   source:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Duration
     path: ../src/BonVision/Collections/GratingsSpecification.cs
@@ -127,7 +127,7 @@ items:
   source:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Diameter
     path: ../src/BonVision/Collections/GratingsSpecification.cs
@@ -156,7 +156,7 @@ items:
   source:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: X
     path: ../src/BonVision/Collections/GratingsSpecification.cs
@@ -185,7 +185,7 @@ items:
   source:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Y
     path: ../src/BonVision/Collections/GratingsSpecification.cs
@@ -214,7 +214,7 @@ items:
   source:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Contrast
     path: ../src/BonVision/Collections/GratingsSpecification.cs
@@ -243,7 +243,7 @@ items:
   source:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: SpatialFrequency
     path: ../src/BonVision/Collections/GratingsSpecification.cs
@@ -272,7 +272,7 @@ items:
   source:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: TemporalFrequency
     path: ../src/BonVision/Collections/GratingsSpecification.cs
@@ -301,7 +301,7 @@ items:
   source:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Orientation
     path: ../src/BonVision/Collections/GratingsSpecification.cs
@@ -348,7 +348,7 @@ items:
   source:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: OrientationXml
     path: ../src/BonVision/Collections/GratingsSpecification.cs
@@ -389,7 +389,7 @@ items:
   source:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: DelaySpecified
     path: ../src/BonVision/Collections/GratingsSpecification.cs
@@ -430,7 +430,7 @@ items:
   source:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: DurationSpecified
     path: ../src/BonVision/Collections/GratingsSpecification.cs
@@ -471,7 +471,7 @@ items:
   source:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: DiameterSpecified
     path: ../src/BonVision/Collections/GratingsSpecification.cs
@@ -512,7 +512,7 @@ items:
   source:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: XSpecified
     path: ../src/BonVision/Collections/GratingsSpecification.cs
@@ -553,7 +553,7 @@ items:
   source:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: YSpecified
     path: ../src/BonVision/Collections/GratingsSpecification.cs
@@ -594,7 +594,7 @@ items:
   source:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: ContrastSpecified
     path: ../src/BonVision/Collections/GratingsSpecification.cs
@@ -635,7 +635,7 @@ items:
   source:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: SpatialFrequencySpecified
     path: ../src/BonVision/Collections/GratingsSpecification.cs
@@ -676,7 +676,7 @@ items:
   source:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: TemporalFrequencySpecified
     path: ../src/BonVision/Collections/GratingsSpecification.cs
@@ -717,7 +717,7 @@ items:
   source:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: OrientationSpecified
     path: ../src/BonVision/Collections/GratingsSpecification.cs
@@ -758,7 +758,7 @@ items:
   source:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: ToString
     path: ../src/BonVision/Collections/GratingsSpecification.cs

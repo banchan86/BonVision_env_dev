@@ -19,7 +19,7 @@ items:
   source:
     remote:
       path: src/BonVision/OptionalFloatProperty.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: OptionalFloatProperty
     path: ../src/BonVision/OptionalFloatProperty.cs
@@ -73,7 +73,7 @@ items:
   source:
     remote:
       path: src/BonVision/OptionalFloatProperty.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Value
     path: ../src/BonVision/OptionalFloatProperty.cs
@@ -116,7 +116,7 @@ items:
   source:
     remote:
       path: src/BonVision/OptionalFloatProperty.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: HasValue
     path: ../src/BonVision/OptionalFloatProperty.cs
@@ -145,7 +145,7 @@ items:
   source:
     remote:
       path: src/BonVision/OptionalFloatProperty.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Process
     path: ../src/BonVision/OptionalFloatProperty.cs
@@ -173,7 +173,7 @@ items:
   source:
     remote:
       path: src/BonVision/OptionalFloatProperty.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Process
     path: ../src/BonVision/OptionalFloatProperty.cs

@@ -20,7 +20,7 @@ items:
   source:
     remote:
       path: src/BonVision/FieldOfViewProperty.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: FieldOfViewProperty
     path: ../src/BonVision/FieldOfViewProperty.cs
@@ -74,7 +74,7 @@ items:
   source:
     remote:
       path: src/BonVision/FieldOfViewProperty.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: .ctor
     path: ../src/BonVision/FieldOfViewProperty.cs
@@ -103,7 +103,7 @@ items:
   source:
     remote:
       path: src/BonVision/FieldOfViewProperty.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Value
     path: ../src/BonVision/FieldOfViewProperty.cs
@@ -150,7 +150,7 @@ items:
   source:
     remote:
       path: src/BonVision/FieldOfViewProperty.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: ValueXml
     path: ../src/BonVision/FieldOfViewProperty.cs
@@ -191,7 +191,7 @@ items:
   source:
     remote:
       path: src/BonVision/FieldOfViewProperty.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Process
     path: ../src/BonVision/FieldOfViewProperty.cs
@@ -219,7 +219,7 @@ items:
   source:
     remote:
       path: src/BonVision/FieldOfViewProperty.cs
-      branch: main
+      branch: include-workflow-plugin
       repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Process
     path: ../src/BonVision/FieldOfViewProperty.cs
