@@ -34,7 +34,9 @@
           "images/**",
           "workflows/**",
           "logo.svg",
-          "favicon.ico"
+          "favicon.ico",
+          "bonsai/template/api/images/**",
+          "bonsai/template/api/styles/**"
         ]
       }
     ],
@@ -43,6 +45,7 @@
       "default",
       "modern",
       "bonsai/template",
+      "bonsai/template/api", 
       "template"
     ],
     "globalMetadata": {

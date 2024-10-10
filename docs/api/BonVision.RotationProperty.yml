@@ -20,7 +20,7 @@ items:
     remote:
       path: src/BonVision/RotationProperty.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: RotationProperty
     path: ../src/BonVision/RotationProperty.cs
     startLine: 10
@@ -74,7 +74,7 @@ items:
     remote:
       path: src/BonVision/RotationProperty.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Value
     path: ../src/BonVision/RotationProperty.cs
     startLine: 19
@@ -109,7 +109,7 @@ items:
     remote:
       path: src/BonVision/RotationProperty.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: ValueXml
     path: ../src/BonVision/RotationProperty.cs
     startLine: 32
@@ -150,7 +150,7 @@ items:
     remote:
       path: src/BonVision/RotationProperty.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Process
     path: ../src/BonVision/RotationProperty.cs
     startLine: 57
@@ -178,7 +178,7 @@ items:
     remote:
       path: src/BonVision/RotationProperty.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Process
     path: ../src/BonVision/RotationProperty.cs
     startLine: 66

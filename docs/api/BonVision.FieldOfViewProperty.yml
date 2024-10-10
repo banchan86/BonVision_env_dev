@@ -21,7 +21,7 @@ items:
     remote:
       path: src/BonVision/FieldOfViewProperty.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: FieldOfViewProperty
     path: ../src/BonVision/FieldOfViewProperty.cs
     startLine: 9
@@ -75,7 +75,7 @@ items:
     remote:
       path: src/BonVision/FieldOfViewProperty.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: .ctor
     path: ../src/BonVision/FieldOfViewProperty.cs
     startLine: 18
@@ -104,7 +104,7 @@ items:
     remote:
       path: src/BonVision/FieldOfViewProperty.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Value
     path: ../src/BonVision/FieldOfViewProperty.cs
     startLine: 23
@@ -151,7 +151,7 @@ items:
     remote:
       path: src/BonVision/FieldOfViewProperty.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: ValueXml
     path: ../src/BonVision/FieldOfViewProperty.cs
     startLine: 38
@@ -192,7 +192,7 @@ items:
     remote:
       path: src/BonVision/FieldOfViewProperty.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Process
     path: ../src/BonVision/FieldOfViewProperty.cs
     startLine: 55
@@ -220,7 +220,7 @@ items:
     remote:
       path: src/BonVision/FieldOfViewProperty.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Process
     path: ../src/BonVision/FieldOfViewProperty.cs
     startLine: 64

@@ -20,7 +20,7 @@ items:
     remote:
       path: src/BonVision/CreateTextureShift.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: CreateTextureShift
     path: ../src/BonVision/CreateTextureShift.cs
     startLine: 9
@@ -56,7 +56,7 @@ items:
     remote:
       path: src/BonVision/CreateTextureShift.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: X
     path: ../src/BonVision/CreateTextureShift.cs
     startLine: 12
@@ -99,7 +99,7 @@ items:
     remote:
       path: src/BonVision/CreateTextureShift.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Y
     path: ../src/BonVision/CreateTextureShift.cs
     startLine: 17
@@ -142,7 +142,7 @@ items:
     remote:
       path: src/BonVision/CreateTextureShift.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Generate
     path: ../src/BonVision/CreateTextureShift.cs
     startLine: 22
@@ -174,7 +174,7 @@ items:
     remote:
       path: src/BonVision/CreateTextureShift.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Generate
     path: ../src/BonVision/CreateTextureShift.cs
     startLine: 27

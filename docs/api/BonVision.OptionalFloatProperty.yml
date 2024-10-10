@@ -20,7 +20,7 @@ items:
     remote:
       path: src/BonVision/OptionalFloatProperty.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: OptionalFloatProperty
     path: ../src/BonVision/OptionalFloatProperty.cs
     startLine: 8
@@ -74,7 +74,7 @@ items:
     remote:
       path: src/BonVision/OptionalFloatProperty.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Value
     path: ../src/BonVision/OptionalFloatProperty.cs
     startLine: 17
@@ -117,7 +117,7 @@ items:
     remote:
       path: src/BonVision/OptionalFloatProperty.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: HasValue
     path: ../src/BonVision/OptionalFloatProperty.cs
     startLine: 30
@@ -146,7 +146,7 @@ items:
     remote:
       path: src/BonVision/OptionalFloatProperty.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Process
     path: ../src/BonVision/OptionalFloatProperty.cs
     startLine: 46
@@ -174,7 +174,7 @@ items:
     remote:
       path: src/BonVision/OptionalFloatProperty.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Process
     path: ../src/BonVision/OptionalFloatProperty.cs
     startLine: 55

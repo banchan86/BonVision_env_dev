@@ -23,7 +23,7 @@ items:
     remote:
       path: src/BonVision/CreateSphereGrid.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: CreateSphereGrid
     path: ../src/BonVision/CreateSphereGrid.cs
     startLine: 9
@@ -77,7 +77,7 @@ items:
     remote:
       path: src/BonVision/CreateSphereGrid.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: .ctor
     path: ../src/BonVision/CreateSphereGrid.cs
     startLine: 14
@@ -106,7 +106,7 @@ items:
     remote:
       path: src/BonVision/CreateSphereGrid.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Left
     path: ../src/BonVision/CreateSphereGrid.cs
     startLine: 22
@@ -135,7 +135,7 @@ items:
     remote:
       path: src/BonVision/CreateSphereGrid.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Right
     path: ../src/BonVision/CreateSphereGrid.cs
     startLine: 25
@@ -164,7 +164,7 @@ items:
     remote:
       path: src/BonVision/CreateSphereGrid.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Bottom
     path: ../src/BonVision/CreateSphereGrid.cs
     startLine: 28
@@ -193,7 +193,7 @@ items:
     remote:
       path: src/BonVision/CreateSphereGrid.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Top
     path: ../src/BonVision/CreateSphereGrid.cs
     startLine: 31
@@ -222,7 +222,7 @@ items:
     remote:
       path: src/BonVision/CreateSphereGrid.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Process
     path: ../src/BonVision/CreateSphereGrid.cs
     startLine: 104
@@ -250,7 +250,7 @@ items:
     remote:
       path: src/BonVision/CreateSphereGrid.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Process
     path: ../src/BonVision/CreateSphereGrid.cs
     startLine: 109

@@ -20,7 +20,7 @@ items:
     remote:
       path: src/BonVision/AngleProperty.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: AngleProperty
     path: ../src/BonVision/AngleProperty.cs
     startLine: 9
@@ -74,7 +74,7 @@ items:
     remote:
       path: src/BonVision/AngleProperty.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Value
     path: ../src/BonVision/AngleProperty.cs
     startLine: 18
@@ -121,7 +121,7 @@ items:
     remote:
       path: src/BonVision/AngleProperty.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: ValueXml
     path: ../src/BonVision/AngleProperty.cs
     startLine: 33
@@ -162,7 +162,7 @@ items:
     remote:
       path: src/BonVision/AngleProperty.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Process
     path: ../src/BonVision/AngleProperty.cs
     startLine: 46
@@ -190,7 +190,7 @@ items:
     remote:
       path: src/BonVision/AngleProperty.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Process
     path: ../src/BonVision/AngleProperty.cs
     startLine: 55

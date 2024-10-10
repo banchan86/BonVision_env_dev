@@ -36,7 +36,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: GratingParameters
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 10
@@ -70,7 +70,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Delay
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 12
@@ -99,7 +99,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Duration
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 14
@@ -128,7 +128,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Diameter
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 16
@@ -157,7 +157,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: X
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 18
@@ -186,7 +186,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Y
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 20
@@ -215,7 +215,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Contrast
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 22
@@ -244,7 +244,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: SpatialFrequency
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 24
@@ -273,7 +273,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: TemporalFrequency
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 26
@@ -302,7 +302,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: Orientation
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 28
@@ -349,7 +349,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: OrientationXml
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 34
@@ -390,7 +390,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: DelaySpecified
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 42
@@ -431,7 +431,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: DurationSpecified
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 45
@@ -472,7 +472,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: DiameterSpecified
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 48
@@ -513,7 +513,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: XSpecified
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 51
@@ -554,7 +554,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: YSpecified
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 54
@@ -595,7 +595,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: ContrastSpecified
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 57
@@ -636,7 +636,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: SpatialFrequencySpecified
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 60
@@ -677,7 +677,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: TemporalFrequencySpecified
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 63
@@ -718,7 +718,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: OrientationSpecified
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 66
@@ -759,7 +759,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: main
-      repo: https://github.com/banchan86/BonVision_env_dev
+      repo: https://github.com/banchan86/BonVision_env_dev.git
     id: ToString
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 69
