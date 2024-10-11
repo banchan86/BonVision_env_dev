@@ -25,6 +25,13 @@
           "filter.yml",
           "bonsai/**"
         ]
+      },
+      {
+        "files": [
+          "**/*.bonsai"
+        ],
+        "src": "../src",
+        "dest": "api"
       }
     ],
     "resource": [
@@ -45,7 +52,8 @@
       "modern",
       "bonsai/template",
       "bonsai/template/api", 
-      "template"
+      "template",
+      "IncludeWorkflowPlugin"
     ],
     "globalMetadata": {
       "_appName": "\u00A0 Bonvision",
