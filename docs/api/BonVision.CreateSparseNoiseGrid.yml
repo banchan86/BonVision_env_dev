@@ -21,7 +21,7 @@ items:
     remote:
       path: src/BonVision/CreateSparseNoiseGrid.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: CreateSparseNoiseGrid
     path: ../src/BonVision/CreateSparseNoiseGrid.cs
     startLine: 10
@@ -75,7 +75,7 @@ items:
     remote:
       path: src/BonVision/CreateSparseNoiseGrid.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: Rows
     path: ../src/BonVision/CreateSparseNoiseGrid.cs
     startLine: 15
@@ -104,7 +104,7 @@ items:
     remote:
       path: src/BonVision/CreateSparseNoiseGrid.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: Columns
     path: ../src/BonVision/CreateSparseNoiseGrid.cs
     startLine: 18
@@ -133,7 +133,7 @@ items:
     remote:
       path: src/BonVision/CreateSparseNoiseGrid.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: ActiveQuads
     path: ../src/BonVision/CreateSparseNoiseGrid.cs
     startLine: 21
@@ -162,7 +162,7 @@ items:
     remote:
       path: src/BonVision/CreateSparseNoiseGrid.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: Process
     path: ../src/BonVision/CreateSparseNoiseGrid.cs
     startLine: 24
@@ -198,7 +198,7 @@ items:
     remote:
       path: src/BonVision/CreateSparseNoiseGrid.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: Process
     path: ../src/BonVision/CreateSparseNoiseGrid.cs
     startLine: 29

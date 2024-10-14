@@ -19,7 +19,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: GratingsSpecification
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 87
@@ -73,7 +73,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: Trials
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 95
@@ -102,7 +102,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: Process
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 102
@@ -130,7 +130,7 @@ items:
     remote:
       path: src/BonVision/Collections/GratingsSpecification.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: Process
     path: ../src/BonVision/Collections/GratingsSpecification.cs
     startLine: 107

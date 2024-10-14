@@ -17,7 +17,7 @@ items:
     remote:
       path: src/BonVision/CreateVertexGrid.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: CreateVertexGrid
     path: ../src/BonVision/CreateVertexGrid.cs
     startLine: 9
@@ -71,7 +71,7 @@ items:
     remote:
       path: src/BonVision/CreateVertexGrid.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: Process
     path: ../src/BonVision/CreateVertexGrid.cs
     startLine: 14

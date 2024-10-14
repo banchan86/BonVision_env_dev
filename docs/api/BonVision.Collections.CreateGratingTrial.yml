@@ -29,7 +29,7 @@ items:
     remote:
       path: src/BonVision/Collections/CreateGratingTrial.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: CreateGratingTrial
     path: ../src/BonVision/Collections/CreateGratingTrial.cs
     startLine: 38
@@ -67,7 +67,7 @@ items:
     remote:
       path: src/BonVision/Collections/CreateGratingTrial.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: .ctor
     path: ../src/BonVision/Collections/CreateGratingTrial.cs
     startLine: 41
@@ -96,7 +96,7 @@ items:
     remote:
       path: src/BonVision/Collections/CreateGratingTrial.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: Delay
     path: ../src/BonVision/Collections/CreateGratingTrial.cs
     startLine: 49
@@ -125,7 +125,7 @@ items:
     remote:
       path: src/BonVision/Collections/CreateGratingTrial.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: Duration
     path: ../src/BonVision/Collections/CreateGratingTrial.cs
     startLine: 52
@@ -154,7 +154,7 @@ items:
     remote:
       path: src/BonVision/Collections/CreateGratingTrial.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: Diameter
     path: ../src/BonVision/Collections/CreateGratingTrial.cs
     startLine: 55
@@ -183,7 +183,7 @@ items:
     remote:
       path: src/BonVision/Collections/CreateGratingTrial.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: X
     path: ../src/BonVision/Collections/CreateGratingTrial.cs
     startLine: 58
@@ -212,7 +212,7 @@ items:
     remote:
       path: src/BonVision/Collections/CreateGratingTrial.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: Y
     path: ../src/BonVision/Collections/CreateGratingTrial.cs
     startLine: 61
@@ -241,7 +241,7 @@ items:
     remote:
       path: src/BonVision/Collections/CreateGratingTrial.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: Contrast
     path: ../src/BonVision/Collections/CreateGratingTrial.cs
     startLine: 64
@@ -270,7 +270,7 @@ items:
     remote:
       path: src/BonVision/Collections/CreateGratingTrial.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: SpatialFrequency
     path: ../src/BonVision/Collections/CreateGratingTrial.cs
     startLine: 67
@@ -299,7 +299,7 @@ items:
     remote:
       path: src/BonVision/Collections/CreateGratingTrial.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: TemporalFrequency
     path: ../src/BonVision/Collections/CreateGratingTrial.cs
     startLine: 70
@@ -328,7 +328,7 @@ items:
     remote:
       path: src/BonVision/Collections/CreateGratingTrial.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: Orientation
     path: ../src/BonVision/Collections/CreateGratingTrial.cs
     startLine: 73
@@ -375,7 +375,7 @@ items:
     remote:
       path: src/BonVision/Collections/CreateGratingTrial.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: OrientationXml
     path: ../src/BonVision/Collections/CreateGratingTrial.cs
     startLine: 80
@@ -416,7 +416,7 @@ items:
     remote:
       path: src/BonVision/Collections/CreateGratingTrial.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: Process
     path: ../src/BonVision/Collections/CreateGratingTrial.cs
     startLine: 88
@@ -452,7 +452,7 @@ items:
     remote:
       path: src/BonVision/Collections/CreateGratingTrial.cs
       branch: include-workflow-plugin
-      repo: https://github.com/banchan86/BonVision_env_dev.git
+      repo: https://github.com/banchan86/BonVision_env_dev
     id: Process
     path: ../src/BonVision/Collections/CreateGratingTrial.cs
     startLine: 105
