@@ -52,7 +52,7 @@
       "modern",
       "bonsai/template",
       "bonsai/template/api", 
-      "template",
+      "template"
     ],
     "globalMetadata": {
       "_appName": "\u00A0 Bonvision",
