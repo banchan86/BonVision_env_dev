@@ -6,9 +6,9 @@
   <Workflow>
     <Nodes>
       <Expression xsi:type="Combinator">
-        <Combinator xsi:type="bv:CreateTextureScale">
-          <bv:X>1</bv:X>
-          <bv:Y>1</bv:Y>
+        <Combinator xsi:type="bv:CreateTextureShift">
+          <bv:X>0</bv:X>
+          <bv:Y>0</bv:Y>
         </Combinator>
       </Expression>
     </Nodes>

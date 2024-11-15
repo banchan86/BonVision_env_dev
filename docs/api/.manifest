@@ -172,7 +172,6 @@
   "BonVision.OptionalFloatProperty.Process": "BonVision.OptionalFloatProperty.yml",
   "BonVision.OptionalFloatProperty.Process``1(System.IObservable{``0})": "BonVision.OptionalFloatProperty.yml",
   "BonVision.OptionalFloatProperty.Value": "BonVision.OptionalFloatProperty.yml",
-  "BonVision.Primitives": "BonVision.Primitives.yml",
   "BonVision.Primitives.BonVisionResources": "BonVision.Primitives.BonVisionResources.yml",
   "BonVision.Primitives.DrawCheckerboard": "BonVision.Primitives.DrawCheckerboard.yml",
   "BonVision.Primitives.DrawCheckerboard.Angle": "BonVision.Primitives.DrawCheckerboard.yml",
