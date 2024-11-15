@@ -10,10 +10,6 @@ items:
   - BonVision.Collections.GratingsSpecification
   - BonVision.Collections.GratingSequence
   - BonVision.Collections.SparseNoise
-  - BonVision.Collections.GratingSequence
-  - BonVision.Collections.SparseNoise
-  - BonVision.Collections.GratingSequence
-  - BonVision.Collections.SparseNoise
   langs:
   - csharp
   - vb
@@ -48,30 +44,6 @@ references:
   name: GratingsSpecification
   nameWithType: GratingsSpecification
   fullName: BonVision.Collections.GratingsSpecification
-- uid: BonVision.Collections.GratingSequence
-  commentId: T:BonVision.Collections.GratingSequence
-  href: BonVision.Collections.GratingSequence.html
-  name: GratingSequence
-  nameWithType: GratingSequence
-  fullName: BonVision.Collections.GratingSequence
-- uid: BonVision.Collections.SparseNoise
-  commentId: T:BonVision.Collections.SparseNoise
-  href: BonVision.Collections.SparseNoise.html
-  name: SparseNoise
-  nameWithType: SparseNoise
-  fullName: BonVision.Collections.SparseNoise
-- uid: BonVision.Collections.GratingSequence
-  commentId: T:BonVision.Collections.GratingSequence
-  href: BonVision.Collections.GratingSequence.html
-  name: GratingSequence
-  nameWithType: GratingSequence
-  fullName: BonVision.Collections.GratingSequence
-- uid: BonVision.Collections.SparseNoise
-  commentId: T:BonVision.Collections.SparseNoise
-  href: BonVision.Collections.SparseNoise.html
-  name: SparseNoise
-  nameWithType: SparseNoise
-  fullName: BonVision.Collections.SparseNoise
 - uid: BonVision.Collections.GratingSequence
   commentId: T:BonVision.Collections.GratingSequence
   href: BonVision.Collections.GratingSequence.html
