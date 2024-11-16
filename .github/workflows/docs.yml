@@ -34,11 +34,10 @@ jobs:
         working-directory: .bonsai
         run: .\Setup.ps1
       
-      - name: Setup Python and Pyyaml
+      - name: Setup Python 
         uses: actions/setup-python@v5
         with: 
           python-version: '3.12'
-          cache: 'pip'
       
       - name: Setup Pyyaml
         run: pip install pyyaml==6.0.2
