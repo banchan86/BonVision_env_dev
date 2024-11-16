@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Multiple Stimuli | Bonvision </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Multiple Stimuli | Bonvision ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/bonvision/BonVision/blob/main/docs/articles/stimuli-multiple.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="&#160; Bonvision">
+            &#160; Bonvision
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="multiple-stimuli">Multiple Stimuli</h1>
+
+<p><code>BonVision</code> has three methods for drawing multiple stimuli in the same window.</p>
+<h2 id="array-primitives">Array Primitives</h2>
+<p>For several stimuli primitives, <code>BonVision</code> includes array versions of these primitives that can be used to draw several of them simultaneously.</p>
+<div class="workflow"><p><img src="../workflows/array-primitives.bonsai" alt="Array Primitives"></p>
+</div>
+<p>These primitives can only be used to draw duplicate stimuli but with different positions.</p>
+<ul>
+<li>Shawn's note - I would like to add more details here about generating the input for these primitives but I am unable to find an example workflow to copy from and have not been able to figure it out myself. I saw an example on <a href="https://bonsai-rx.org/docs/tutorials/scripting.html">https://bonsai-rx.org/docs/tutorials/scripting.html</a> but have trouble getting the <code>CSharpTransform</code> operator to work.</li>
+</ul>
+<h2 id="using-selectmany-to-pass-an-array-of-values">Using SelectMany to Pass An Array of Values</h2>
+<p>For finer control over the stimulus parameters, one can pass multiple values for each of the properties in a <code>DrawX</code> stimuli using a <a href="https://bonsai-rx.org/docs/api/Bonsai.Reactive.SelectMany.html">SelectMany</a> operator.
+In this example workflow,</p>
+<ol>
+<li>We have generated two ranges of values using a <code>ParameterRange</code> operator, which we then <code>Zip</code> and pass along to a <code>SelectMany</code> operator named <code>Create Gratings</code>. The <code>SelectMany</code> operator generates one observable sequence for each input then merges the results into a single sequence.</li>
+<li>Double click on the <code>SelectMany</code> operator to view the embedded workflow. Within the <code>SelectMany</code> operator, we use an <code>InputMapping</code> operator to map the two values to the <code>LocationX</code> and <code>Contrast</code> of a <code>DrawGrating</code> node.</li>
+<li>Lastly we use a <code>CombineLatest</code> operator to issue a <code>Draw</code> call for each element that is produced. The end result is a row of gratings with different contrast and position.</li>
+</ol>
+<ul>
+<li>Shawn's note - This is how I understand this example workflow I saw on the Bonvision Examples repo, not sure if the explaination is correct.</li>
+</ul>
+<div class="workflow"><p><img src="../workflows/multiple-stimuli-selectmany.bonsai" alt="SelectMany Example"></p>
+</div>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The <code>DrawStimuli</code> nodes in the example workflow are a <code>PublishSubject</code> and <code>SubscribeSubject</code> pair which we will cover below.</p>
+</div>
+<h2 id="publish-and-subscribe-subject">Publish and Subscribe Subject</h2>
+<p>For different stimuli, we can use the <code>PublishSubject</code> and <code>SubscribeSubject</code> operators to give multiple drawing commands to the <code>RenderFrame</code> operator.
+<a href="https://bonsai-rx.org/docs/articles/subjects.html">Subjects</a> are a special type of operator that allow reusing and sharing of observable sequences.</p>
+<p>To get started:</p>
+<ol>
+<li>Connect a <code>PublishSubject</code> operator to the viewport (in our example workflow below, a <code>NormalizedView</code>) and give it a name, like <code>DrawStimuli</code>.</li>
+<li>Add multiple <code>SubscribeSubject</code> operators for each of the stimuli type you want to draw. In the <code>SubscribeSubject</code> operators, you will need to select the name you have given to the <code>Subject</code> you have created (in this example, <code>DrawStimuli</code>)</li>
+<li>Connect <code>DrawX</code> operators to each <code>SubscribeSubject</code> operator</li>
+</ol>
+<p>The end result should look something like this example workflow, which draws a circle and quad side by side.</p>
+<div class="workflow"><p><img src="../workflows/multiple-stimuli-publish.bonsai" alt="Publish and Subscribe"></p>
+</div>
+<p>For a video walkthrough of this process, see this youtube video.</p>
+<div style="max-width: 500px">
+<iframe width="100%" height="282" src="https://www.youtube.com/embed/NudcbbQ2AMg" title="BonVision quick tips: Presenting two stimuli on screen simultaneously" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</div>
+<h3 id="presenting-multiple-stimuli-sequentially">Presenting multiple stimuli sequentially</h3>
+<p>To present multiple stimuli sequentially, we can use the same <code>PublishSubject</code> and <code>SubscribeSubject</code> operators but add timers to them. Timing will be covered in the <a href="stimuli-timing.html">Timing Stimuli</a> article,</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/bonvision/BonVision/blob/main/docs/articles/stimuli-multiple.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          &copy; 2024 Aman Saleem. Made with <a href="https://dotnet.github.io/docfx">docfx</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

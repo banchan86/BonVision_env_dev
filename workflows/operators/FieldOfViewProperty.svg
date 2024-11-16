@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"[
+<!ENTITY E9 'stroke:none;opacity:1;fill:rgb(255,255,255);'><!ENTITY E3 'matrix(1.00 0.00 0.00 1.00 4.00 4.00 ) '><!ENTITY E2 'stroke:rgb(169,169,169);fill:none;stroke-linecap:butt;stroke-miterlimit:9;opacity:1;stroke-width:2;stroke-linejoin:miter;'>
+]>
+<svg width="69.94009" height="52.82519" id="SvgGdi_output" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>text { fill: #000; } @media (prefers-color-scheme: dark) { text { fill: #eee; } }</style>
+  <rect id="background" height="100.00%" style="fill:none;" width="100.00%" y="0.00" x="0.00" />
+  <g style="shape-rendering:auto;" id="root_group">
+    <path style="stroke:rgb(169,169,169);fill:none;stroke-linecap:butt;stroke-miterlimit:9;opacity:1;stroke-width:2;stroke-linejoin:miter;" transform="matrix(1.00 0.00 0.00 1.00 4.00 4.00 ) " id="35" d="M 31.179 5.2 C 34.9985 11.0918 34.9814 18.682 31.13552 24.557 " />
+    <ellipse id="36" cy="15.00" cx="15.00" transform="matrix(1.00 0.00 0.00 1.00 4.00 4.00 ) " rx="15.00" ry="15.00" style="stroke:none;opacity:1;fill:rgb(91,178,126);" />
+    <path transform="matrix(1.00 0.00 0.00 1.00 4.00 4.00 ) " id="41" d="M 19.269 20.099 C 19.269 22.4871 17.3331 24.4238 14.9451 24.4238 12.5561 24.4238 10.6203 22.487 10.6203 20.099 10.6203 17.7109 12.5562 15.7751 14.9451 15.7751 17.3332 15.7751 19.269 17.711 19.269 20.099 z " style="stroke:rgb(255,255,255);fill:none;stroke-linecap:butt;stroke-miterlimit:9;opacity:1;stroke-width:2;stroke-linejoin:miter;" />
+    <path transform="matrix(1.00 0.00 0.00 1.00 4.00 4.00 ) " id="42" d="M 16.975 3.0248 C 16.73886 3.06546 16.51242 3.21251 16.34286 3.49717 15.6852 4.60047 14.77066 5.80307 14.35576 7.13567 13.92228 6.64929 13.54155 6.15081 13.6769 5.99947 14.54394 5.03396 13.22386 3.50617 12.3577 4.47067 11.36065 5.58137 11.58498 7.02467 12.50337 8.11237 13.35954 9.126869 14.12797 9.595369 14.22117 11.09017 13.71315 10.73458 13.23687 10.31038 12.67657 10.05927 12.01987 9.76308 10.16017 9.93013 9.818172 9.16561 9.266643 7.92891 7.657972 9.020451 8.210373 10.25711 8.769353 11.51011 9.959173 11.68241 11.05227 11.84021 12.21977 12.00775 13.06457 12.86311 14.09207 13.40411 14.02969 13.91396 13.95819 14.42471 13.91067 14.91691 13.77569 16.29881 15.64077 16.28731 15.77407 14.91691 15.90887 13.52981 16.18661 11.99041 16.06815 10.55711 18.20435 10.63938 21.03795 9.132412 21.83435 6.778212 22.27408 5.481912 20.47085 4.919911 20.03685 6.203712 19.77931 6.961502 18.99005 7.335611 18.40705 7.665512 17.62234 8.110412 16.88755 8.419831 16.02415 8.390021 16.08245 7.746341 16.39576 7.206521 16.71401 6.663321 17.12145 5.968041 17.53757 5.280221 17.95081 4.588721 18.46445 3.727551 17.68355 2.902821 16.97512 3.024821 z " style="stroke:none;fill-rule:evenodd;opacity:1;fill:rgb(255,255,255);" />
+    <ellipse id="43" cy="19.52" cx="16.06" transform="matrix(1.00 0.00 0.00 1.00 4.00 4.00 ) " rx="0.60" ry="0.60" style="stroke:none;opacity:1;fill:rgb(255,255,255);" />
+    <ellipse id="44" cy="19.52" cx="16.06" transform="matrix(1.00 0.00 0.00 1.00 4.00 4.00 ) " rx="0.60" ry="0.60" style="stroke:rgb(255,255,255);fill:none;stroke-linecap:butt;stroke-miterlimit:9;opacity:1;stroke-width:1.8061;stroke-linejoin:miter;" />
+    <ellipse id="45" cy="19.00" cx="4.00" rx="3.00" ry="3.00" style="stroke:rgb(169,169,169);fill:none;stroke-linecap:butt;stroke-miterlimit:9;opacity:1;stroke-width:2;stroke-linejoin:miter;" />
+    <ellipse id="46" cy="19.00" cx="4.00" rx="3.00" ry="3.00" style="stroke:none;opacity:1;fill:rgb(255,255,255);" />
+    <text id="47" x="4.00px" y="39.00px" transform="matrix(1.00 0.00 0.00 1.00 0.00 0.00 ) " style="stroke:none;clip-path:url(#49_text_clipper);font-family:Microsoft Sans Serif;font-size:8.25pt;opacity:1;">
+      <tspan dy="8.25pt" id="51">FieldOfView</tspan>
+    </text>
+  </g>
+  <defs id="clips_hatches_and_gradients">
+    <clipPath id="49_text_clipper">
+      <rect x="4.00" y="39.00" width="64.94" height="13.83" id="50" />
+    </clipPath>
+  </defs>
+</svg>

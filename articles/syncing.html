@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Syncing | Bonvision </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Syncing | Bonvision ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/bonvision/BonVision/blob/main/docs/articles/syncing.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="&#160; Bonvision">
+            &#160; Bonvision
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="syncing">Syncing</h1>
+
+<p>In this article, we will cover how to sync <code>BonVision</code> experiments with other systems (e.g. neural recordings) with a photodiode, which has been used historically in vision neuroscience. While there are alternative methods of syncing (such as through TTL pulses which can be sent through <code>Bonsai</code>), syncing using a photodiode is a bit more precise and closer to ground truth because we know precisely when the stimulus is presented on the screen rather than when the computer has sent out a signal to update the display (which might have some delay).</p>
+<p>To sync with a photodiode, we have a small square in the corner of the screen (that is not visible to the subject) which we flip between black and white, which we can then observe with a photodiode.</p>
+<p>To set this up:</p>
+<ol>
+<li>Use a <code>DrawQuad</code> to draw a square and position the square in the corner of the screen.</li>
+<li>Externalize the <code>ColorR</code>, <code>ColorG</code> and <code>ColorB</code> properties of the <code>DrawQuad</code> operator to control the color of the square.</li>
+<li>Create a <code>BehaviourSubject</code> operator and name it <code>QuadState</code>, set a default <code>Float</code> value of 0 (for black), and link a <code>SubscribeSubject</code> operator subscribing to <code>QuadState</code> to the externalized <code>ColorR</code>, <code>ColorG</code> and <code>ColorB</code> properties.</li>
+<li>Within our pipeline for drawing a visual stimulus, we can add a <a href="https://bonsai-rx.org/docs/articles/operators.html#sink"><code>Sink</code></a> operator that updates <code>QuadState</code> whenever the stimulus is presented or when the stimulus is turned off. <code>Sink</code> operators do not modify the input or output items in any way but can trigger an external action.</li>
+</ol>
+<p>This example workflow shows a directional tuning stimulus together with a flashing square for syncing with a photodiode. You will need to expand the <code>CreateObservable</code> -&gt; <code>DirStim</code> grouped workflows to see the <code>Sink</code> operators (named <code>UpdatePD</code>) which are embedded in the visual stimulus drawing pipeline.</p>
+<div class="workflow"><p><img src="../workflows/syncing-pd.bonsai" alt="Syncing with photodiode"></p>
+</div>
+<p>For a video walkthrough of this process, check out this youtube video.</p>
+<div style="max-width: 500px">
+<iframe width="100%" height="282" src="https://www.youtube.com/embed/VzWwP04z48c" title="BonVision LiveCodingSession: Synching with photodiode" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</div>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/bonvision/BonVision/blob/main/docs/articles/syncing.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          &copy; 2024 Aman Saleem. Made with <a href="https://dotnet.github.io/docfx">docfx</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

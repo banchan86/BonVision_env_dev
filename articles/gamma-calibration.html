@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Gamma | Bonvision </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Gamma | Bonvision ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/bonvision/BonVision/blob/main/docs/articles/gamma-calibration.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="&#160; Bonvision">
+            &#160; Bonvision
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="gamma">Gamma</h1>
+
+<p>The gamma calibration workflows can be <a href="https://github.com/bonvision/examples/tree/master/GammaCalibration">found here</a>.</p>
+<h2 id="what-is-gamma-calibration">What is gamma calibration?</h2>
+<p>Consider a pixel on your monitor. When your program tells the computer what intensity that pixel should have -- e.g. 128 in an 8-bit grayscale color range -- that number will be translated by the video card into a pattern of voltage signals to the display, which will convert them to an appropriate light intensity, e.g. 10 photons/s. Intuitively, when your program doubles that numeric intensity, you would expect that the intensity of the pixel would also double. This would be a linear system – doubling the number in your program should double the amount of light emitted by the pixel.</p>
+<p>However, computer monitors and projectors don't quite work like this. For various reasons related to human visual perception and data compression, there are non-linearities between the numbers in your program and pixel intensity. For example, doubling the number in the program might triple the intensity of the pixel, and this might depend on the intensity you started with. When running visual neuroscience experiments we often would like to know the exact relationship between the numbers our computer program is specifying and the pixel intensity, and possibly compensate for these non-linearities when we present stimuli. This is the process of gamma calibration.</p>
+<p>We calibrate by creating a look-up table, consisting of 256 columns and 3 rows (one for each of the monitor primary colours – red, green and blue). When we send an image to the video-card, the last thing we do is pass the image through this look-up table.</p>
+<p>Additional info at: <a href="https://learnopengl.com/Advanced-Lighting/Gamma-Correction">LearnOpenGL</a>, <a href="https://en.wikipedia.org/wiki/Gamma_correction">Wikipedia</a>, or <a href="https://www.graphics.cornell.edu/%7Ewestin/gamma/gamma.html">here</a>.</p>
+<h2 id="using-bonvision-for-gamma-calibration">Using BonVision for Gamma Calibration</h2>
+<h3 id="hardware-requirements">Hardware requirements:</h3>
+<p>You will require a <em>light sensor</em> and a <em>data acquisition device</em></p>
+<p><strong>Light sensor:</strong> We have tested these scripts using two sensors –</p>
+<ul>
+<li>Open-source photodiode from Champalimaud Foundations’s Hardware Platform <a href="https://www.cf-hw.org/harp/behavior#h.p_uMPRuA1sNnEB">link</a></li>
+<li>Thorlabs amplified photodetector <a href="https://www.thorlabs.com/catalogpages/obsolete/2020/PDA20H-EC.pdf">DISCONTINUED</a></li>
+</ul>
+<p><strong>Data Acquisition device:</strong> We ran our tests on an <a href="https://www.arduino.cc">Arduino board</a>, and a <a href="https://www.cf-hw.org/harp">HARP board</a>. The main requirement is that you would need to be able to read it with Bonsai (it covers most DAQs).</p>
+<hr>
+<h3 id="testing-display-gamma">Testing display gamma</h3>
+<p>This workflow can be used to test the linearity of the monitor with or without the gamma correction in BonVision.
+To test without the GammaCorrection, disable the <code>GammaCorrection</code> node in the workflow here.</p>
+<div class="workflow"><p><img src="../workflows/GammaCalibration-test.bonsai" alt="Gamma Calibration Test"></p>
+</div>
+<h3 id="setup">Setup:</h3>
+<ol>
+<li><p>Connect the sensor to an analog channel of the DAQ and setup the <code>AnalogInput</code> node as appropriate for your DAQ by setting the <code>Pin</code> and <code>PortName</code> property.</p>
+</li>
+<li><p>Place the sensor such that it is facing the monitor (or the light path if it is a projector). Make sure there are no additional light sources to the sensor.</p>
+</li>
+</ol>
+<h3 id="test">Test:</h3>
+<p><em>Run the workflow!</em></p>
+<p>There are a few settings you might have to play with:</p>
+<ul>
+<li>Position and size of the display window. These can be setup in the option of the CreateWindow node.</li>
+<li>If the measurement is noisy you can change the parameters <strong>Count</strong> and <strong>Period</strong> in the options of the <strong>BrightnessRamp</strong> node. We set it at 255 steps (steps between 0-255) with a sampling time of 0.02 seconds per step. You might have to increase the sampling time depending on the temporal characteristics of the sensor and display. To reduce the total time taken to run the test, you can reduce the number of steps. E.g. For one of our 60Hz projector we used 20 steps sampled at 1s per step, to be confident of the measurements.</li>
+<li>You might have to reduce the spatial frequency of the <strong>DrawGrating</strong> node depending on the size of the display and sensor.</li>
+</ul>
+<p>Below is an example of the measurement made for a monitor. Note there is a curve (rather than line) on the left, and the sine wave has peaks sharper than the troughs.</p>
+<p><img src="../images/Demos/Gamma_ExampleNoCorrection.PNG" width="500" alt="Augmented Reality Demo"></p>
+<h3 id="making-the-monitor-linear">Making the monitor linear</h3>
+<h4 id="option-1-preferred--go-with-the-hardware">Option 1 (Preferred) – go with the hardware</h4>
+<p>The hardware of most modern displays is typically linear (such as in LCD or LED displays). However, a gamma non-linearity is incorporated into the output to allow representing the full human perceptual range with just 8-bits for each color. Therefore displayed images will ‘look nice’ even with just 256 light levels.</p>
+<p>This gamma curve is incorporated at multiple levels, mainly in the settings of the physical display (every monitor is different) and in the OS (graphics card driver). In Windows 10, the OS settings can be calibrated using the <em>Calibrate Display Colour</em> app from the start menu. Move through the steps and max out the correction (it’ll make the monitor look brighter and greyer. Re-run the test with those settings to check if this made the display linear. If not, continue to option 2.</p>
+<h4 id="option-2--use-bonvision-to-calibrate">Option 2 – use BonVision to Calibrate</h4>
+<p>There are two workflows: <em>GammaCalibration_Fit</em> &amp; <em>GammaCalibration_FitGray</em>.
+Follow steps similar to those above in Testing the Display to run these scripts. The look-up image is saved where specified in the <strong>FileName</strong> parameter of the <strong>SaveImage</strong> node.
+You can edit the <em>CreateGammaLookup.cs</em> in the <em>Extensions</em> folder within to have a different fitting if you prefer.</p>
+<p>Note: In case the <strong>BrightnessRamp</strong> node shows an error and is red, you might have to hit <em>Reload Extensions</em> in Bonsai, which is the rightmost icon on top.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/bonvision/BonVision/blob/main/docs/articles/gamma-calibration.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          &copy; 2024 Aman Saleem. Made with <a href="https://dotnet.github.io/docfx">docfx</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

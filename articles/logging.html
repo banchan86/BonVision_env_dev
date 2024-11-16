@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Logging | Bonvision </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Logging | Bonvision ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/bonvision/BonVision/blob/main/docs/articles/logging.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="&#160; Bonvision">
+            &#160; Bonvision
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="logging">Logging</h1>
+
+<p>By 'Logging' we refer to saving information relavant for the experiment. In general, there are four kinds of data one might want to log during an experiment:</p>
+<ul>
+<li>Duration of the experiment and timing of each frame</li>
+<li>When were the stimuli presented</li>
+<li>What are the stimulus parameters used in the experiment</li>
+<li>Keeping track of external events</li>
+</ul>
+<p>We created three nodes that can deal with all the three types of logging. These nodes are: <code>FrameEventLogger</code>, <code>EventLog</code> &amp; <code>LogEvent</code>. The logger saves data to a .csv file and there are three aspects saved</p>
+<div class="workflow"><p><img src="../workflows/logging-all-loggers.bonsai" alt="All Loggers"></p>
+</div>
+<p><code>FrameEventLogger</code>: This is used to setup a logger that can be used to  It needs to be placed after <code>RenderFrame</code>. The first time this is encountered, it starts the clocks, both the frame counter and time. It also opens the .csv file that is specified where the information is saved. A logger then becomes a behaviour subject that can be accessed in the rest of the workflow.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>You can start the logger either at the start of the experiment which will keep logs globally, or within a trial which will save data with respect to the relevant trial.</p>
+</div>
+<p><code>EventLogger</code>: This is used to setup a logger that can be used to record stimulus/experiment parameters parameters but does not record frame event and timing.</p>
+<p><code>LogEvent</code>: This is actually used to save the data to the file. A <code>LogEvent</code> node subscribes to a <code>FrameEventLogger</code> or <code>EventLogger</code> subject, and writes to the corresponding .csv file three different aspects <strong>Current frame index</strong>, <strong>Current Time</strong>, <strong>Logged information</strong>.  The input to the <code>LogEvent</code> node can be the parameters that need to the saved (described below), and contain the format in which the data is saved.</p>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>When there are multiple <code>FrameEventLogger</code> or <code>EventLogger</code> subjects, we need to ensure that <code>LogEvent</code> subscribes to the right subject to write to the correct file.</p>
+</div>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>There are options to overwrite, append, etc for the files, so make sure you do not lose information by overwriting the files.</p>
+</div>
+<p>Here, we describe how to inplment the logging scenarios at the beginning of the article.</p>
+<h3 id="a-logging-screen-update--refresh-times">A. Logging screen update / refresh times</h3>
+<p>To log the frame index and the time at which every frame was presented, duplicate the <code>RenderFrame</code> node, connect a <code>FrameEventLogger</code> with a subject called <code>Frames</code> followed by a <code>LogEvent</code> node that subscribes to the <code>Frames</code> subject.</p>
+<div class="workflow"><p><img src="../workflows/logging-frame-event.bonsai" alt="Logging Frame Event"></p>
+</div>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>Although you can put the <code>FrameEventLogger</code> and <code>LogEvent</code> in the <code>DrawCircle</code> branch, in branches where there are conditional loops the <code>FrameEventLogger</code> might restart. Thus, its better to make a separate branch for logging events.</p>
+</div>
+<h3 id="b-logging-stimulus-presentation">B. Logging stimulus presentation</h3>
+<p>To log stimulus presentation, create a second <code>FrameEventLogger</code> branch with a new subject called <code>Stimulus</code>, but this time, place a <code>LogEvent</code> node that subscribes to the <code>Stimulus</code> subject after a <code>DrawX</code> stimuli node. In this example workflow, the stimuli is presented after 5 seonds, and the <code>LogEvent</code> only logs when the stimuli is onscreen.</p>
+<div class="workflow"><p><img src="../workflows/logging-stimulus-presentation.bonsai" alt="Logging Stimulus Presentation"></p>
+</div>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This is a good example of starting multiple loggers to save different types of information in different files.</p>
+</div>
+<h3 id="c-logging-stimulus-parameters">C. Logging stimulus parameters</h3>
+<p>To log stimulus parameters, we would use the same method for logging stimulus presentation, but connect the <code>LogEvent</code> to the parameter that is being varied.</p>
+<div class="workflow"><p><img src="../workflows/logging-stimulus-parameters.bonsai" alt="Logging Stimulus Parameters"></p>
+</div>
+<h3 id="d-logging-external-events">D. Logging external events</h3>
+<p>To log external events that are happening (such as keypresses or an animal carrying out a nose poke), the process is similar to that of logging stimuli presentation/presentation. Create a new <code>FrameEventLogger</code> branch, but in this case with a new subject called <code>Events</code>, and place a <code>LogEvent</code> node that subscribes to the <code>Events</code> subject after the keypresses or event you want to record.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The external events can be sampled at a different sampling frequency compared to the visual stimulus presentation. In the situation where the external data is at a higher rate, the frame index might not change as frequently, however, the time will remain precise</p>
+</div>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The two <code>LogEvents</code> after the keypresses can subscribe to the same <code>Events</code> subject so you do not need to create a separate file for every event.</p>
+</div>
+<div class="workflow"><p><img src="../workflows/logging-keydown.bonsai" alt="Logging Keydown"></p>
+</div>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/bonvision/BonVision/blob/main/docs/articles/logging.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          &copy; 2024 Aman Saleem. Made with <a href="https://dotnet.github.io/docfx">docfx</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

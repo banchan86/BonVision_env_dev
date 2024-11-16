@@ -1,0 +1,3747 @@
+{
+  "source_base_path": "D:/a/BonVision_env_dev/BonVision_env_dev/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.AngleProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.AngleProperty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Collections.CreateGratingTrial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Collections.CreateGratingTrial.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Collections.GratingParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Collections.GratingParameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Collections.GratingSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Collections.GratingSequence.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Collections.GratingTrial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Collections.GratingTrial.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Collections.GratingsSpecification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Collections.GratingsSpecification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Collections.SparseNoise.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Collections.SparseNoise.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Collections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.CreateSparseNoiseGrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.CreateSparseNoiseGrid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.CreateSphereGrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.CreateSphereGrid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.CreateTextureScale.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.CreateTextureScale.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.CreateTextureShift.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.CreateTextureShift.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.CreateVertexGrid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.CreateVertexGrid.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Environment.CubemapView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Environment.CubemapView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Environment.DrawViewport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Environment.DrawViewport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Environment.GammaCorrection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Environment.GammaCorrection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Environment.HmdView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Environment.HmdView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Environment.MeshMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Environment.MeshMapping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Environment.NormalizedView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Environment.NormalizedView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Environment.OrthographicView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Environment.OrthographicView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Environment.PerspectiveMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Environment.PerspectiveMapping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Environment.PerspectiveView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Environment.PerspectiveView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Environment.RenderHmd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Environment.RenderHmd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Environment.SphereMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Environment.SphereMapping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Environment.ViewMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Environment.ViewMapping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Environment.ViewWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Environment.ViewWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Environment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Environment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.FieldOfViewProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.FieldOfViewProperty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Logging.EventLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Logging.EventLogger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Logging.FrameEventLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Logging.FrameEventLogger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Logging.LogEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Logging.LogEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Logging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.OptionalFloatProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.OptionalFloatProperty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Primitives.BonVisionResources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Primitives.BonVisionResources.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Primitives.DrawCheckerboard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Primitives.DrawCheckerboard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Primitives.DrawCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Primitives.DrawCircle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Primitives.DrawCircleArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Primitives.DrawCircleArray.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Primitives.DrawGratings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Primitives.DrawGratings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Primitives.DrawImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Primitives.DrawImage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Primitives.DrawModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Primitives.DrawModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Primitives.DrawModelArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Primitives.DrawModelArray.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Primitives.DrawQuad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Primitives.DrawQuad.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Primitives.DrawSceneModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Primitives.DrawSceneModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Primitives.DrawText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Primitives.DrawText.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Primitives.DrawTexturedModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Primitives.DrawTexturedModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Primitives.DrawTexturedModelArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Primitives.DrawTexturedModelArray.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Primitives.DrawVideo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Primitives.DrawVideo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Primitives.ParameterRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Primitives.ParameterRange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Primitives.RangeAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Primitives.RangeAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.Primitives.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.Primitives.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.RotationProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.RotationProperty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BonVision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BonVision.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api_landing/api_landing.md",
+      "output": {
+        ".html": {
+          "relative_path": "api_landing/api_landing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api_landing/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api_landing/toc.html"
+        },
+        ".json": {
+          "relative_path": "api_landing/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/basic-workflow.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/basic-workflow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/community/community.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/community/community.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/community/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/community/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/community/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/create-window.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/create-window.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/define-display.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/define-display.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/demos/2AFC-demo.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/demos/2AFC-demo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/demos/AR-demo.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/demos/AR-demo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/demos/LoomingSweeping-demo.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/demos/LoomingSweeping-demo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/demos/VR-demo.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/demos/VR-demo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/demos/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/demos/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/demos/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/display-environment-basics.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/display-environment-basics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/display-position-calibration.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/display-position-calibration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/draw-stimuli.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/draw-stimuli.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/drawing-region.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/drawing-region.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/faq.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/faq.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/gamma-calibration.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/gamma-calibration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/installation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/logging.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/logging.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/map-stimuli.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/map-stimuli.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/mesh-mapping-calibration.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/mesh-mapping-calibration.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/stimuli-alternative.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/stimuli-alternative.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/stimuli-animating.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/stimuli-animating.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/stimuli-multiple.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/stimuli-multiple.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/stimuli-neuroscience.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/stimuli-neuroscience.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/stimuli-timing.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/stimuli-timing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/syncing.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/syncing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "bonsai/template/api/images/combinator-operator.svg",
+      "output": {
+        "resource": {
+          "relative_path": "bonsai/template/api/images/combinator-operator.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "bonsai/template/api/images/right-arrow.svg",
+      "output": {
+        "resource": {
+          "relative_path": "bonsai/template/api/images/right-arrow.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "bonsai/template/api/images/sink-operator.svg",
+      "output": {
+        "resource": {
+          "relative_path": "bonsai/template/api/images/sink-operator.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "bonsai/template/api/images/source-operator.svg",
+      "output": {
+        "resource": {
+          "relative_path": "bonsai/template/api/images/source-operator.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "bonsai/template/api/images/transform-operator.svg",
+      "output": {
+        "resource": {
+          "relative_path": "bonsai/template/api/images/transform-operator.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "bonsai/template/api/styles/styles.css",
+      "output": {
+        "resource": {
+          "relative_path": "bonsai/template/api/styles/styles.css"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/2AFC.webp",
+      "output": {
+        "resource": {
+          "relative_path": "images/2AFC.webp"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DemoAR_v3.webp",
+      "output": {
+        "resource": {
+          "relative_path": "images/DemoAR_v3.webp"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Demos/Gamma_ExampleNoCorrection.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "images/Demos/Gamma_ExampleNoCorrection.PNG"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DisplayLogic/ARcartoon.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/DisplayLogic/ARcartoon.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DisplayLogic/CheckerBoard.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/DisplayLogic/CheckerBoard.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DisplayLogic/CheckerBoardMapped.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/DisplayLogic/CheckerBoardMapped.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DisplayLogic/CubeMapSkybox.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DisplayLogic/CubeMapSkybox.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DisplayLogic/CubeMapping.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/DisplayLogic/CubeMapping.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DisplayLogic/CubemapEnvironment.webp",
+      "output": {
+        "resource": {
+          "relative_path": "images/DisplayLogic/CubemapEnvironment.webp"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DisplayLogic/CylindricalMapping.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DisplayLogic/CylindricalMapping.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DisplayLogic/IcosphereMapping.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DisplayLogic/IcosphereMapping.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DisplayLogic/NormalizedViewport.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DisplayLogic/NormalizedViewport.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DisplayLogic/SphericalCoord_resized.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DisplayLogic/SphericalCoord_resized.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DisplayLogic/VRcartoon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DisplayLogic/VRcartoon.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DisplayLogic/ViewWindow-examples-.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DisplayLogic/ViewWindow-examples-.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DisplayPosition/ArucoExamples.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/DisplayPosition/ArucoExamples.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DisplayPosition/calib.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/DisplayPosition/calib.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DisplayPosition/disp-e.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/DisplayPosition/disp-e.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DisplayPosition/disp-front.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/DisplayPosition/disp-front.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DisplayPosition/disp-n.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/DisplayPosition/disp-n.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DisplayPosition/disp-ne.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/DisplayPosition/disp-ne.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DisplayPosition/disp-s.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/DisplayPosition/disp-s.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DisplayPosition/disp-sw.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/DisplayPosition/disp-sw.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/DisplayPosition/disp-w.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/DisplayPosition/disp-w.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/MeshMapping/checkerboard_corrected.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/MeshMapping/checkerboard_corrected.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/MeshMapping/checkerboard_error.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/MeshMapping/checkerboard_error.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/MeshMapping/initial_point_mapping.JPG",
+      "output": {
+        "resource": {
+          "relative_path": "images/MeshMapping/initial_point_mapping.JPG"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/MeshMapping/meshmap_correction.JPG",
+      "output": {
+        "resource": {
+          "relative_path": "images/MeshMapping/meshmap_correction.JPG"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/VR_trim2.webp",
+      "output": {
+        "resource": {
+          "relative_path": "images/VR_trim2.webp"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/basic.webp",
+      "output": {
+        "resource": {
+          "relative_path": "images/basic.webp"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/Events.csv",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/Events.csv"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/GammaCalibration-test.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/GammaCalibration-test.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/GammaCalibration-test.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/GammaCalibration-test.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/GammaCalibration-test.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/GammaCalibration-test.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/alternative-stimuli-csv-loading.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/alternative-stimuli-csv-loading.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/alternative-stimuli-csv-loading.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/alternative-stimuli-csv-loading.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/alternative-stimuli-dynamictexture.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/alternative-stimuli-dynamictexture.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/alternative-stimuli-dynamictexture.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/alternative-stimuli-dynamictexture.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/alternative-stimuli-dynamictexture.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/alternative-stimuli-dynamictexture.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/animating-stimuli-circle-locationx.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/animating-stimuli-circle-locationx.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/animating-stimuli-circle-locationx.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/animating-stimuli-circle-locationx.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/animating-stimuli-circle-locationx.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/animating-stimuli-circle-locationx.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/array-primitives.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/array-primitives.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/array-primitives.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/array-primitives.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/array-primitives.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/array-primitives.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/basic-primitives.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/basic-primitives.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/basic-primitives.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/basic-primitives.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/basic-primitives.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/basic-primitives.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/create-window.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/create-window.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/create-window.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/create-window.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/define-display-draw-viewport.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/define-display-draw-viewport.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/define-display-draw-viewport.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/define-display-draw-viewport.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/demo-closedloop.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/demo-closedloop.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/demo-closedloop.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/demo-closedloop.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/demo-closedloop.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/demo-closedloop.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/demo-looming.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/demo-looming.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/demo-looming.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/demo-looming.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/demo-looming.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/demo-looming.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/demo-sweeping.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/demo-sweeping.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/demo-sweeping.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/demo-sweeping.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/demo-sweeping.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/demo-sweeping.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/demo-vr.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/demo-vr.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/demo-vr.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/demo-vr.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/demo-vr.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/demo-vr.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-basic-primitives.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-basic-primitives.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-basic-primitives.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-basic-primitives.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-basic-primitives.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-basic-primitives.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-draw-image-sequence.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-draw-image-sequence.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-draw-image-sequence.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-draw-image-sequence.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-draw-image-sequence.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-draw-image-sequence.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-draw-image.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-draw-image.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-draw-image.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-draw-image.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-draw-image.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-draw-image.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-image-video-primitives.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-image-video-primitives.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-image-video-primitives.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-image-video-primitives.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-image-video-primitives.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-image-video-primitives.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-model.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-model.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-model.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-model.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-model.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-model.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-neuroscience-primitives.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-neuroscience-primitives.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-neuroscience-primitives.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-neuroscience-primitives.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-neuroscience-primitives.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-neuroscience-primitives.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-scene-model-primitives.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-scene-model-primitives.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-scene-model-primitives.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-scene-model-primitives.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-scene-model-primitives.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-scene-model-primitives.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-scene.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-scene.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-scene.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-scene.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-scene.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-scene.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-sparse-noise.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-sparse-noise.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-sparse-noise.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-sparse-noise.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-textured-model.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-textured-model.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-textured-model.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-textured-model.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/draw-stimuli-textured-model.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/draw-stimuli-textured-model.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/drawing-region-2d-views.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/drawing-region-2d-views.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/drawing-region-2d-views.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/drawing-region-2d-views.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/drawing-region-2d-views.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/drawing-region-2d-views.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/drawing-region-3d-views.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/drawing-region-3d-views.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/drawing-region-3d-views.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/drawing-region-3d-views.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/drawing-region-3d-views.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/drawing-region-3d-views.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/drawing-region-cubemap-view.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/drawing-region-cubemap-view.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/drawing-region-cubemap-view.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/drawing-region-cubemap-view.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/drawing-region-normalized-view.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/drawing-region-normalized-view.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/drawing-region-normalized-view.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/drawing-region-normalized-view.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/drawing-region-orthographic-view.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/drawing-region-orthographic-view.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/drawing-region-orthographic-view.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/drawing-region-orthographic-view.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/drawing-region-perspective-view.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/drawing-region-perspective-view.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/drawing-region-perspective-view.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/drawing-region-perspective-view.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/drawing-region-perspective-view.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/drawing-region-perspective-view.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/drawing-region-views.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/drawing-region-views.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/drawing-region-views.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/drawing-region-views.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/drawing-region-views.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/drawing-region-views.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/logging-all-loggers.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/logging-all-loggers.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/logging-all-loggers.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/logging-all-loggers.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/logging-all-loggers.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/logging-all-loggers.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/logging-event-logger.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/logging-event-logger.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/logging-event-logger.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/logging-event-logger.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/logging-event-logger.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/logging-event-logger.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/logging-frame-even.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/logging-frame-even.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/logging-frame-event.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/logging-frame-event.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/logging-frame-event.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/logging-frame-event.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/logging-frame-event.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/logging-frame-event.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/logging-keydown.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/logging-keydown.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/logging-keydown.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/logging-keydown.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/logging-keydown.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/logging-keydown.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/logging-stimulus-parameters.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/logging-stimulus-parameters.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/logging-stimulus-parameters.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/logging-stimulus-parameters.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/logging-stimulus-parameters.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/logging-stimulus-parameters.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/logging-stimulus-presentation.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/logging-stimulus-presentation.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/logging-stimulus-presentation.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/logging-stimulus-presentation.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/logging-stimulus-presentation.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/logging-stimulus-presentation.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/map-stimuli-sphere-mapping.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/map-stimuli-sphere-mapping.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/map-stimuli-sphere-mapping.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/map-stimuli-sphere-mapping.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/multiple-stimuli-publish.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/multiple-stimuli-publish.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/multiple-stimuli-publish.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/multiple-stimuli-publish.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/multiple-stimuli-publish.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/multiple-stimuli-publish.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/multiple-stimuli-selectmany.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/multiple-stimuli-selectmany.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/multiple-stimuli-selectmany.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/multiple-stimuli-selectmany.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/multiple-stimuli-selectmany.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/multiple-stimuli-selectmany.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/neuroscience-primitives.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/neuroscience-primitives.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/neuroscience-primitives.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/neuroscience-primitives.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/neuroscience-primitives.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/neuroscience-primitives.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/neuroscience-stimuli-sparse-noise-logging.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/neuroscience-stimuli-sparse-noise-logging.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/neuroscience-stimuli-sparse-noise-logging.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/neuroscience-stimuli-sparse-noise-logging.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/neuroscience-stimuli-sparse-noise.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/neuroscience-stimuli-sparse-noise.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/neuroscience-stimuli-sparse-noise.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/neuroscience-stimuli-sparse-noise.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/AngleProperty.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/AngleProperty.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/AngleProperty.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/AngleProperty.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/BonvisionResources.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/BonvisionResources.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/BonvisionResources.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/BonvisionResources.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/CreateGratingTrial.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/CreateGratingTrial.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/CreateGratingTrial.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/CreateGratingTrial.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/CreateSparseNoiseGrid.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/CreateSparseNoiseGrid.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/CreateSparseNoiseGrid.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/CreateSparseNoiseGrid.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/CreateSphereGrid.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/CreateSphereGrid.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/CreateSphereGrid.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/CreateSphereGrid.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/CreateTextureScale.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/CreateTextureScale.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/CreateTextureScale.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/CreateTextureScale.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/CreateTextureShift.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/CreateTextureShift.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/CreateTextureShift.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/CreateTextureShift.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/CreateVertexGrid.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/CreateVertexGrid.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/CreateVertexGrid.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/CreateVertexGrid.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/CubemapView.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/CubemapView.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/CubemapView.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/CubemapView.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawCheckerboard.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawCheckerboard.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawCheckerboard.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawCheckerboard.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawCircle.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawCircle.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawCircle.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawCircle.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawCircleArray.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawCircleArray.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawCircleArray.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawCircleArray.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawGratings.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawGratings.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawGratings.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawGratings.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawImage.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawImage.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawImage.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawImage.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawModel.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawModel.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawModel.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawModel.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawModelArray.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawModelArray.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawModelArray.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawModelArray.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawQuad.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawQuad.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawQuad.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawQuad.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawSceneModel.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawSceneModel.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawSceneModel.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawSceneModel.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawText.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawText.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawText.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawText.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawTexturedModel.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawTexturedModel.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawTexturedModel.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawTexturedModel.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawTexturedModelArray.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawTexturedModelArray.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawTexturedModelArray.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawTexturedModelArray.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawVideo.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawVideo.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawVideo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawVideo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawViewport.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawViewport.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/DrawViewport.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/DrawViewport.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/EventLogger.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/EventLogger.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/EventLogger.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/EventLogger.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/FieldOfViewProperty.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/FieldOfViewProperty.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/FieldOfViewProperty.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/FieldOfViewProperty.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/FrameEventLogger.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/FrameEventLogger.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/FrameEventLogger.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/FrameEventLogger.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/GammaCorrection.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/GammaCorrection.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/GammaCorrection.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/GammaCorrection.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/GratingSequence.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/GratingSequence.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/GratingSequence.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/GratingSequence.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/GratingsSpecification.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/GratingsSpecification.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/GratingsSpecification.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/GratingsSpecification.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/HmdView.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/HmdView.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/HmdView.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/HmdView.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/LogEvent.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/LogEvent.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/LogEvent.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/LogEvent.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/MeshMapping.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/MeshMapping.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/MeshMapping.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/MeshMapping.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/NormalizedView.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/NormalizedView.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/NormalizedView.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/NormalizedView.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/OptionalFloatProperty.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/OptionalFloatProperty.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/OptionalFloatProperty.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/OptionalFloatProperty.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/OrthographicView.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/OrthographicView.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/OrthographicView.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/OrthographicView.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/ParameterRange.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/ParameterRange.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/ParameterRange.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/ParameterRange.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/PerspectiveMapping.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/PerspectiveMapping.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/PerspectiveMapping.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/PerspectiveMapping.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/PerspectiveView.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/PerspectiveView.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/PerspectiveView.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/PerspectiveView.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/RangeAnimation.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/RangeAnimation.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/RangeAnimation.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/RangeAnimation.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/RenderHmd.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/RenderHmd.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/RenderHmd.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/RenderHmd.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/RotationProperty.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/RotationProperty.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/RotationProperty.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/RotationProperty.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/SparseNoise.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/SparseNoise.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/SparseNoise.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/SparseNoise.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/SphereMapping.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/SphereMapping.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/SphereMapping.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/SphereMapping.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/ViewMapping.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/ViewMapping.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/ViewMapping.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/ViewMapping.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/ViewWindow.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/ViewWindow.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/operators/ViewWindow.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/operators/ViewWindow.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/overview-create-window.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/overview-create-window.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/overview-create-window.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/overview-create-window.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/overview-create-window.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/overview-create-window.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/overview-draw-circle.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/overview-draw-circle.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/overview-draw-circle.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/overview-draw-circle.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/overview-draw-stimuli.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/overview-draw-stimuli.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/overview-draw-stimuli.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/overview-draw-stimuli.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/overview-map-stimuli-define-display.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/overview-map-stimuli-define-display.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/overview-map-stimuli-define-display.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/overview-map-stimuli-define-display.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/overview-multiple-displays.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/overview-multiple-displays.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/overview-multiple-displays.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/overview-multiple-displays.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/overview-normalized.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/overview-normalized.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/overview-normalized.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/overview-normalized.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/overview-orthographic.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/overview-orthographic.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/overview-orthographic.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/overview-orthographic.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/overview-sphere-map-doesntwork.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/overview-sphere-map-doesntwork.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/overview-sphere-map-doesntwork.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/overview-sphere-map-doesntwork.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/overview-sphere-map-doesntwork.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/overview-sphere-map-doesntwork.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/syncing-pd.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/syncing-pd.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/syncing-pd.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/syncing-pd.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/timing-stimuli-combined-takeuntil-subscribewhen.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/timing-stimuli-combined-takeuntil-subscribewhen.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/timing-stimuli-combined-takeuntil-subscribewhen.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/timing-stimuli-combined-takeuntil-subscribewhen.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/timing-stimuli-combined-takeuntil-subscribewhen.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/timing-stimuli-combined-takeuntil-subscribewhen.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/timing-stimuli-keydown.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/timing-stimuli-keydown.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/timing-stimuli-keydown.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/timing-stimuli-keydown.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/timing-stimuli-keydown.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/timing-stimuli-keydown.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/timing-stimuli-looping.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/timing-stimuli-looping.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/timing-stimuli-looping.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/timing-stimuli-looping.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/timing-stimuli-looping.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/timing-stimuli-looping.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/timing-stimuli-multiple.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/timing-stimuli-multiple.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/timing-stimuli-multiple.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/timing-stimuli-multiple.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/timing-stimuli-multiple.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/timing-stimuli-multiple.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/timing-stimuli-sequential.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/timing-stimuli-sequential.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/timing-stimuli-sequential.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/timing-stimuli-sequential.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/timing-stimuli-sequential.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/timing-stimuli-sequential.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/timing-stimuli-subscribewhen.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/timing-stimuli-subscribewhen.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/timing-stimuli-subscribewhen.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/timing-stimuli-subscribewhen.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/timing-stimuli-subscribewhen.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/timing-stimuli-subscribewhen.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/timing-stimuli-takeuntil.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/timing-stimuli-takeuntil.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/timing-stimuli-takeuntil.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/timing-stimuli-takeuntil.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/timing-stimuli-takeuntil.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/timing-stimuli-takeuntil.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/vision-psychophysics-full-demo.bonsai",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/vision-psychophysics-full-demo.bonsai"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/vision-psychophysics-full-demo.bonsai.layout",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/vision-psychophysics-full-demo.bonsai.layout"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "workflows/vision-psychophysics-full-demo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "workflows/vision-psychophysics-full-demo.svg"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

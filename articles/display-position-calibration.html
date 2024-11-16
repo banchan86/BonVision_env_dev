@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Display Position | Bonvision </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Display Position | Bonvision ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/bonvision/BonVision/blob/main/docs/articles/display-position-calibration.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="&#160; Bonvision">
+            &#160; Bonvision
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="display-position">Display Position</h1>
+
+<p>The workflows in this article can be  <a href="https://github.com/bonvision/examples/tree/master/ScreenCalibration">found here</a>.</p>
+<h2 id="display-position-calibration">Display Position Calibration</h2>
+<p>BonVision is fundamentally based on creating stimuli that are true to the experimenter's definition of the visual environment around a subject, and display devices (monitors/projectors) are merely windows into this environment. Therefore, it is important to know which part of the environment the displays are looking into.</p>
+<p>The position of the visual field that the display is looking into is defined by the parameters in the <em>ViewPort</em> node. Specifically, the parameters: ___, ____, ____, &amp; ____.</p>
+<p>There are two ways of calibrating the position of a display in BonVision:</p>
+<h3 id="1-old-school-with-ruler-and-protractor">1. Old school with ruler and protractor</h3>
+<p>Measure the physical distances and angles. This can get a little tricky with getting accurate measurements of angle. However, if you have a method to measure this, or are happy with approximate values, these are the measurements you would need:</p>
+<ul>
+<li>The size of the display in azimuth and elevation</li>
+<li>The distance of the bottom of the screen from the subject's position</li>
+<li>The angles of the __ __ of the monitor from the subject's position</li>
+</ul>
+<h3 id="2-automated-calibration-with-camera">2. Automated calibration with camera</h3>
+<p>We developed these workflows to enable easy and effective calibration of display position. Conceptually, this is done using a calibrated camera (we provide a workflow to calibrate here) and <a href="https://docs.opencv.org/trunk/d5/dae/tutorial_aruco_detection.html">Aruco markers</a> to identify the 3D coordinates of the display relative to the subject.</p>
+<p><img src="../images/DisplayPosition/ArucoExamples.png" width="500" alt="Aruco Examples"></p>
+<p>The workflow identifies the Aruco patterns on the display and in the subject's position, using a calibrated camera, and automatically calculates the display's position. This automatic calibration has three workflow associated with it (each of them is expanded on below):</p>
+<p><em>A. Measuring camera intrinsics</em></p>
+<p><em>B. Show an Aruco image on the display</em></p>
+<p><em>C. Calibrate the screen position</em></p>
+<p><em>NOTE: To make it convenient, we have the option of calibrating the display by using your phone camera. You would need to take pictures of the setup as described below and upload the images on a system running Bonsai.</em></p>
+<h4 id="a-measuring-camera-intrinsics">A. Measuring camera intrinsics</h4>
+<p>This workflow is to calibrate the intrinsic properties of the camera-lens combination, using standardized OpenCV formats. If you have previously calibrated the camera, you can simply save the value in the OpenCV format and link the function C (below) to that file. Alternatively, you will need to run this program. Running it displays a checkerboard pattern on the screen. (You can also print a checkboard patter of known size). Once it is displayed in the screen, measure the size a unit square and enter it under __  __ After that you will have to take pictures of the checkerboard pattern from different camera viewing angles. In the workflow, an image can be taken by hitting the <em>spacebar</em>. As a standard, we use 7 images (illustrated with figures below):</p>
+<ol>
+<li>from the front of the pattern</li>
+</ol>
+<p><img src="../images/DisplayPosition/disp-front.jpg" width="500" alt="Display Front"></p>
+<ol start="2">
+<li>from the Left</li>
+</ol>
+<p><img src="../images/DisplayPosition/disp-w.jpg" width="500" alt="Display Left"></p>
+<ol start="3">
+<li>from the Right</li>
+</ol>
+<p><img src="../images/DisplayPosition/disp-e.jpg" width="500" alt="Display Right"></p>
+<ol start="4">
+<li>from below the pattern</li>
+</ol>
+<p><img src="../images/DisplayPosition/disp-s.jpg" width="500" alt="Display Below"></p>
+<ol start="5">
+<li>from above</li>
+</ol>
+<p><img src="../images/DisplayPosition/disp-n.jpg" width="500" alt="Display Above"></p>
+<ol start="6">
+<li>from the top, right corner</li>
+</ol>
+<p><img src="../images/DisplayPosition/disp-ne.jpg" width="500" alt="Display Top Right"></p>
+<ol start="7">
+<li>from the bottom left corner</li>
+</ol>
+<p><img src="../images/DisplayPosition/disp-sw.jpg" width="500" alt="Display Bottom Left"></p>
+<h4 id="b-measure-display-size-using-a-marker">B. Measure display size using a Marker</h4>
+<p>We again use an Aruco Marker to define the size of the display. The workflow __ __ displays a marker in the centre of the screen. One can then adjust the size of the marker by using the up/down keys. What we would like it to match the marker size with that of the one in the subject's position. We can do this by just measuring the two of them, or placing the paper over the screen and ensureing that they are the same size (there is often sufficient transparency on the paper to be able to do this. <em>If not, go greener and use thinner paper in general</em>). This output a display size that can be verified by measuring the actual dimensions of the screen.</p>
+<h4 id="c-calibrate-the-screen-position">C. Calibrate the screen position</h4>
+<p>We would need to have one Aruco marker on the centre of the display and one at the positon of the subject. The latter is ideally a print out of a known size. Once these are displayed, we just need them to be viewed simultaneously through the camera and run the workflow which generates the calibrated position values. As Aruco markers are directional, we have chosen to use Acuro marker Original #45 (shown below), and the marker need to be placed such that the thin side is looking in the direction that the subject is looking.</p>
+<p>Take an picture of the setup when the two markers are visible and run the workflow.</p>
+<p><img src="../images/DisplayPosition/calib.jpg" width="500" alt="Example Calibration"></p>
+<p><em>Note: Make sure that there are just the two markers within the image.</em></p>
+<h4 id="multiple-displays">Multiple displays:</h4>
+<p>These would have to be individually calibrated at the moment.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/bonvision/BonVision/blob/main/docs/articles/display-position-calibration.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          &copy; 2024 Aman Saleem. Made with <a href="https://dotnet.github.io/docfx">docfx</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Timing Stimuli | Bonvision </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Timing Stimuli | Bonvision ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/bonvision/BonVision/blob/main/docs/articles/stimuli-timing.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="&#160; Bonvision">
+            &#160; Bonvision
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="timing-stimuli">Timing Stimuli</h1>
+
+<p><code>Bonsai</code> provides several operators that can be used in conjunction with <code>BonVision</code> operators to control the timing of stimuli presentation.</p>
+<h2 id="triggering-stimuli">Triggering Stimuli</h2>
+<p>To control the onset of stimuli, use the <code>SubscribeWhen</code> operator, which initiates the draw sequence when it detects a notification from a linked operator.
+Starting from a basic <code>DrawCircle</code> workflow, add a <code>SubscribeWhen</code> operator after the <code>DrawCircle</code> operator.
+Connect a <code>Timer</code> operator to the <code>SubscribeWhen</code> operator and adjust the <code>DueTime</code> property to control when the stimuli comes on.</p>
+<p>This workflow draws a circle after five seconds has elapsed.</p>
+<div class="workflow"><p><img src="../workflows/timing-stimuli-subscribewhen.bonsai" alt="Triggering Stimuli"></p>
+</div>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>When choosing a <code>Timer</code> operator, you might see different versions of it in <code>Bonsai</code>.
+Choose the <code>Bonsai.Shaders</code> version. See the <a href="faq.html">FAQ</a> for an indepth discussion of when to choose between duplicate operators.</p>
+</div>
+<h2 id="terminating-stimuli">Terminating Stimuli</h2>
+<p>To control the duration of stimuli, use a <code>TakeUntil</code> operator, which terminates the draw sequence when it detects a notification from a linked operator.
+Simply replace the <code>SubscribeWhen</code> operator with the <code>TakeUntil</code> operator.</p>
+<p>This workflow starts with a drawn circle, and the circle dissappears after five seconds.</p>
+<div class="workflow"><p><img src="../workflows/timing-stimuli-takeuntil.bonsai" alt="Terminating Stimuli"></p>
+</div>
+<h2 id="combining-triggering-and-terminating">Combining Triggering and Terminating</h2>
+<p>Combine the operators together to control both the onset and offset of stimuli.</p>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>The order of operators is important and the sequence goes from right to left. Reversing the operators will cause the sequence to not produce any output.</p>
+</div>
+<p>This workflow draws a circle after two seconds has elapsed, and the circle remains on screen for two seconds.</p>
+<div class="workflow"><p><img src="../workflows/timing-stimuli-combined-takeuntil-subscribewhen.bonsai" alt="Triggering and Terminating Stimuli"></p>
+</div>
+<h2 id="looping-stimuli">Looping Stimuli</h2>
+<p>To loop stimuli, add a <code>Repeat</code> operator to the end of the sequence.</p>
+<p>This workflow loops a circle for two seconds on and two seconds off.</p>
+<div class="workflow"><p><img src="../workflows/timing-stimuli-looping.bonsai" alt="Looping Stimuli"></p>
+</div>
+<div class="NOTE">
+<h5>Note</h5>
+<p>If you want the stimuli to repeat a set number of times instead of infinitely, use a <code>RepeatCount</code> operator instead.</p>
+</div>
+<h2 id="controlling-timing-of-multiple-stimuli">Controlling Timing of Multiple Stimuli</h2>
+<p>To control the presentation of multiple stimuli, use a <code>PublishSubject</code> operator in conjunction with a <code>SubscribeSubject</code> operator to draw multiple stimuli as outlined in the <a href="stimuli-multiple.html">Multiple Stimuli</a> article.
+For each <code>DrawStimuli</code> branch, add separate <code>SubscribeWhen</code>, <code>TakeUntil</code> and <code>Repeat</code> operators.
+Since the branches are separate, they can have different timing progressions.</p>
+<p>This workflow below draws a circle on the left and a quad on the right with different timings for both.</p>
+<div class="workflow"><p><img src="../workflows/timing-stimuli-multiple.bonsai" alt="Timing Multiple Stimuli"></p>
+</div>
+<h2 id="sequential-presentation-of-multiple-stimuli">Sequential Presentation of Multiple Stimuli</h2>
+<p>For sequential presentation of multiple stimuli that are not present at the same time, one can use the <code>Concat</code> operator to join the
+multiple branches of <code>DrawStimuli</code>. The <code>Concat</code> operator combines any number of observable sequences as long as each sequence terminates successfully.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The <code>Repeat</code> operator is moved out of each branch and added to the <code>Concat</code> operator.
+Leaving it in a branch causes that branch to loop and not terminate successfully, which prevents the execution of the <code>Concat</code> step.</p>
+</div>
+<p>The workflow below alternates between a circle on the left and a quad on the right.</p>
+<div class="workflow"><p><img src="../workflows/timing-stimuli-sequential.bonsai" alt="Sequential Presentation of Stimuli"></p>
+</div>
+<h2 id="controlling-stimuli-presentation-with-events-instead-of-time">Controlling Stimuli Presentation with Events instead of Time</h2>
+<p>Finally, both the <code>SubscribeWhen</code> and <code>TakeUntil</code> operators can be linked to other operators to control stimuli onset and offset using events rather than time. For instance, by replacing
+the <code>Timer</code> operator with a <code>KeyDown</code> operator, stimuli presentation can be linked to keypresses.</p>
+<p>This workflow draws a circle when the <code>space bar</code> is pressed, and the circle disappears when the <code>a</code> button is pressed.</p>
+<div class="workflow"><p><img src="../workflows/timing-stimuli-keydown.bonsai" alt="Timing Stimuli with Keypresses"></p>
+</div>
+<p>This also opens up possibilities for close-loop presentation of visual stimuli. For instance, visual stimuli can be linked to lever presses for operant conditioning tasks, as well as to
+subject movement (for instance when an animal crosses into an arena).</p>
+<ul>
+<li>Shawn's note might be worth a separate expanded &quot;close-loop&quot; article.</li>
+</ul>
+<h2 id="video-walkthrough">Video Walkthrough</h2>
+<p>For a video walkthrough of many of the steps covered in this article, check out this youtube video.</p>
+<div style="max-width: 500px">
+<iframe width="100%" height="282" src="https://www.youtube.com/embed/yHQFbI69UHw" title="BonVision quick tips: Timing a stimulus" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</div>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/bonvision/BonVision/blob/main/docs/articles/stimuli-timing.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          &copy; 2024 Aman Saleem. Made with <a href="https://dotnet.github.io/docfx">docfx</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

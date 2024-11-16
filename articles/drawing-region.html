@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Drawing Region | Bonvision </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Drawing Region | Bonvision ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/bonvision/BonVision/blob/main/docs/articles/drawing-region.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="&#160; Bonvision">
+            &#160; Bonvision
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="drawing-region">Drawing Region</h1>
+
+<p>The drawing views define which region of visual space is used for the visual world as well as the units for the parameters (sizes/locations) that stimuli are drawn with.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This can be larger than the actual region used.</p>
+</div>
+<p>All drawing views accept a <code>RenderFrame</code> as input and a <code>DrawX</code> stimuli as output as shown in the basic workflow below.</p>
+<div class="workflow"><p><img src="../workflows/overview-draw-circle.bonsai" alt="Basic Workflow"></p>
+</div>
+<h2 id="2d-stimuli">2D Stimuli</h2>
+<div class="workflow"><p><img src="../workflows/drawing-region-2d-views.bonsai" alt="2D views"></p>
+</div>
+<h3 id="normalizedview">NormalizedView</h3>
+<p><code>NormalizedView</code> is the default view for rapid prototyping of 2D stimuli.</p>
+<p>This view scales the screen from -1 to 1 on both axes and has no properties to adjust.</p>
+<p>Stimuli drawn will have parameters (eg, sizes, locations) in terms of proportions of the screen size, in contrast to <code>OrthographicView</code>.</p>
+<p><img src="../images/DisplayLogic/NormalizedViewport.png" width="500" alt="NormalizedView"></p>
+<p>In this example workflow, we have drawn a circle with a diameter of 1. Since the screen size is scaled from -1 to 1 on both axes, that results in a circle that takes up half the screen in both axes.</p>
+<div class="workflow"><p><img src="../workflows/drawing-region-normalized-view.bonsai" alt="2D views"></p>
+</div>
+<h3 id="orthographicview">OrthographicView</h3>
+<p><code>OrthographicView</code> is the preferred view for displaying 2D stimuli with traditional retino-centric coordinates.</p>
+<p>The properties to vary are the visual angles for the top and bottom boundaries (elevation) and left and right boundaries (azimuth).</p>
+<p>Stimuli drawn will have sizes and locations defined in terms of visual angles.</p>
+<p>In this example workflow, we have defined an orthographic view that extends 90 deg in visual angle for all 4 boundaries (essentially a hemisphere in front of the subject) and defined a circle to be drawn with a diameter of 90 degrees centered at 0 deg visual angle. This leads to a circle that takes up half the visual field. Although the outcome is the same with both the <code>NormalizedView</code> and <code>OrthographicView</code> examples note the differences in terms of units that the stimuli are drawn with.</p>
+<div class="workflow"><p><img src="../workflows/drawing-region-orthographic-view.bonsai" alt="2D views"></p>
+</div>
+<h2 id="3d-stimuli">3D Stimuli</h2>
+<div class="workflow"><p><img src="../workflows/drawing-region-3d-views.bonsai" alt="3D views"></p>
+</div>
+<h3 id="perspectiveview">PerspectiveView</h3>
+<p><code>PerspectiveView</code> is the preferred view for displaying 3D stimuli such as 3D models or scenes (complex 3D models).</p>
+<p>The properties to vary are the eye/camera position, field of view, light position, target position, the up vector of the camera (this determines the roll/orientation) as well as the distance to the far and near clipping planes (the area that the camera can see).</p>
+<p>Stimuli drawn will have sizes and locations defined in terms of metric units.</p>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>Using a 2D <code>DrawX</code> stimuli node with a <code>PerspectiveView</code> will throw a method overload error.</p>
+</div>
+<p>In this example workflow, we have replaced the 2D draw circle with a 3D <code>DrawModel</code> node to draw a 3D plane.</p>
+<div class="workflow"><p><img src="../workflows/drawing-region-perspective-view.bonsai" alt="Perspective View"></p>
+</div>
+<h3 id="cubemapview">CubemapView</h3>
+<p><code>CubemapView</code> is the preferred view for display 3D environments such as those commonly used for virtual reality or augmented reality.</p>
+<p>The properties to vary are the eye/camera position, light position, field of view, target position, as well as the distance to the far and near clipping planes (the area that the camera can see).</p>
+<p>Stimuli drawn will have sizes and locations defined in terms of metric units.</p>
+<p>In this example workflow, we use <code>CubemapView</code> to simulate the walls of a virtual 3D room. This example workflow is a stripped down version of the virtual reality corridor in <a href="demos/VR-demo.html">Demos</a> and requires downloading of the textures in that article.</p>
+<div class="workflow"><p><img src="../workflows/drawing-region-cubemap-view.bonsai" alt="Perspective View"></p>
+</div>
+<div class="NOTE">
+<h5>Note</h5>
+<p><code>CubemapView</code> requires two additional nodes for a basic workflow, a <code>RenderCubemap</code> operator from the <code>Bonsai.Shaders</code> package (included as a dependency) that renders the cubemap and a <code>ViewWindow</code> that looks out into the virtual environment.</p>
+</div>
+<div class="NOTE">
+<h5>Note</h5>
+<p>While the description of the operator suggests that you need to define six textures for each face of the cubemap, you can display an arbitary number of textures (including less than six).</p>
+</div>
+<h3 id="other-nodes-to-document-under-construction">Other nodes to document (under construction)</h3>
+<p><code>HMDview</code> and <code>RenderHMD</code></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/bonvision/BonVision/blob/main/docs/articles/drawing-region.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          &copy; 2024 Aman Saleem. Made with <a href="https://dotnet.github.io/docfx">docfx</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
