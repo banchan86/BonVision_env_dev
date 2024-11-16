@@ -33,6 +33,13 @@ jobs:
       - name: Setup Bonsai
         working-directory: .bonsai
         run: .\Setup.ps1
+      
+      - name: Setup Python and Pyyaml
+        uses: actions/setup-python@v5
+        with: 
+          python-version: '3.12'
+          cache: 'pip'
+        run: pip install pyyaml==6.0.2
 
       - name: Build Documentation
         working-directory: docs
