@@ -39,6 +39,8 @@ jobs:
         with: 
           python-version: '3.12'
           cache: 'pip'
+      
+      - name: Setup Pyyaml
         run: pip install pyyaml==6.0.2
 
       - name: Build Documentation
