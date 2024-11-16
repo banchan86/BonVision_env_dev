@@ -25,13 +25,6 @@
           "filter.yml",
           "bonsai/**"
         ]
-      },
-      {
-        "files": [
-          "**/*.bonsai"
-        ],
-        "src": "../src",
-        "dest": "api"
       }
     ],
     "resource": [
